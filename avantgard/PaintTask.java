@@ -7,13 +7,15 @@ public class PaintTask implements Runnable {
     // Fields //
     private Color[][] grid;         // State of the grid
     private int x, y;               // Current position
+    private int countColored;       // Number of colored cells
     private Avantgard avantgard;    // Reference to the main class
 
     // Constructor //
-    public PaintTask(Color[][] grid, int x, int y, Avantgard avantgard) {
+    public PaintTask(Color[][] grid, int x, int y, int countColored, Avantgard avantgard) {
         this.grid = copyGrid(grid);
         this.x = x;
         this.y = y;
+        this.countColored = countColored;
         this.avantgard = avantgard;
     }
 
@@ -24,15 +26,17 @@ public class PaintTask implements Runnable {
         while (true) {
             // Paint the current position
             grid[x][y] = Color.COLORED;
+            countColored++;
 
             // Get valid directions
             List<int[]> dirs = getValidDirections(x, y);
 
             // No more valid directions (end condition)
             if (dirs.isEmpty()) {
-                avantgard.gridList.add(grid);
+                if (countColored >= 42) {
+                    avantgard.writeGridToFile(grid, countColored);
+                }
                 avantgard.taskCounter.decrementAndGet();
-                avantgard.printGrid(grid);
                 return;
             }
 
@@ -52,7 +56,7 @@ public class PaintTask implements Runnable {
                 int newY = dirs.get(i)[1];
 
                 avantgard.taskCounter.incrementAndGet();
-                avantgard.executor.submit(new PaintTask(grid, newX, newY, avantgard));
+                avantgard.executor.submit(new PaintTask(grid, newX, newY, countColored, avantgard));
             }
         }
     }
