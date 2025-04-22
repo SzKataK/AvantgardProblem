@@ -58,6 +58,10 @@ Example:
 Count Colored: 42
 ```
 
+### License
+
+This project is freely usable under the terms of the MIT license.
+
 ## HU - Avantgárd probléma
 
 ### Problémaleírás
@@ -112,3 +116,7 @@ A program az érvényes színezési megoldásokat az `output.txt` fájlba menti.
 7 C C C     C C C 
 Count Colored: 42
 ```
+
+### Licenc
+
+Ez a projekt szabadon felhasználható az MIT licenc feltételei szerint.
