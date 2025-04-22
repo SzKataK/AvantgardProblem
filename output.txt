@@ -2,39 +2,6 @@
   0 1 2 3 4 5 6 7
 0 C C   C C C C C 
 1 C   C C       C 
-2 C   C   C C C C 
-3 C C   C C       
-4   C   C   C C C 
-5 C C   C C C   C 
-6 C             C 
-7 C C C C C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C   C C C C C 
-1 C   C C       C 
-2 C C C   C C C C 
-3       C C       
-4     C C   C C C 
-5 C C C   C C   C 
-6 C     C C     C 
-7 C C C C   C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C   C C C C C 
-1 C   C C       C 
-2 C   C   C C C C 
-3 C C   C C       
-4   C   C   C C C 
-5 C C   C C C   C 
-6 C           C C 
-7 C C C C C C C   
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C   C C C C C 
-1 C   C C       C 
 2 C C C   C C C C 
 3       C C       
 4 C C C C   C C C 
@@ -103,8 +70,41 @@ Count Colored: 42
 1 C   C C       C 
 2 C C C   C C C C 
 3       C C       
+4 C C C C   C C C 
+5 C         C   C 
+6 C   C C C     C 
+7 C C C   C C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C   C C C C C 
+1 C   C C       C 
+2 C C C   C C C C 
+3       C C       
+4 C C C C   C C C 
+5 C         C   C 
+6 C   C C C   C C 
+7 C C C   C C C   
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C   C C C C C 
+1 C   C C       C 
+2 C C C   C C C C 
+3       C C       
 4     C C   C C C 
 5 C C C   C C   C 
+6 C     C C     C 
+7 C C C C   C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C   C C C C C 
+1 C   C C       C 
+2 C C C   C C C C 
+3       C C       
+4 C C C C   C C C 
+5 C       C C   C 
 6 C     C C   C C 
 7 C C C C   C C   
 Count Colored: 42
@@ -158,21 +158,10 @@ Count Colored: 42
 1 C   C C       C 
 2 C C C   C C C C 
 3       C C       
-4 C C C C   C C C 
-5 C       C C   C 
+4     C C   C C C 
+5 C C C   C C   C 
 6 C     C C   C C 
 7 C C C C   C C   
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C   C C C C C 
-1 C   C C       C 
-2 C C C   C C C C 
-3       C C       
-4 C C C C   C C C 
-5 C         C   C 
-6 C   C C C   C C 
-7 C C C   C C C   
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
@@ -189,17 +178,28 @@ Count Colored: 42
   0 1 2 3 4 5 6 7
 0 C C   C C C C C 
 1 C   C C       C 
-2 C C C   C C C C 
-3       C C       
-4 C C C C   C C C 
-5 C         C   C 
-6 C   C C C     C 
-7 C C C   C C C C 
+2 C   C   C C C C 
+3 C C   C C       
+4   C   C   C C C 
+5 C C   C C C   C 
+6 C             C 
+7 C C C C C C C C 
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
-0 C C C     C C C 
-1 C     C C C   C 
+0 C C   C C C C C 
+1 C   C C       C 
+2 C   C   C C C C 
+3 C C   C C       
+4   C   C   C C C 
+5 C C   C C C   C 
+6 C           C C 
+7 C C C C C C C   
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0   C C   C C C   
+1 C C   C C   C C 
 2 C   C C       C 
 3 C C C   C C C C 
 4       C C       
@@ -209,21 +209,10 @@ Count Colored: 42
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
-0 C C C   C C C C 
-1 C     C C     C 
+0   C C     C C C 
+1 C C   C C C   C 
 2 C   C C       C 
 3 C C C   C C C C 
-4       C C       
-5 C C C C   C C C 
-6 C       C C   C 
-7 C C C C C   C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C   C C C C 
-1 C     C C     C 
-2 C   C C     C C 
-3 C C C   C C C   
 4       C C       
 5 C C C C   C C C 
 6 C       C C   C 
@@ -242,8 +231,74 @@ Count Colored: 42
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
+0 C C C     C C C 
+1 C     C C C   C 
+2 C   C C       C 
+3 C C C   C C C C 
+4       C C       
+5 C C C C   C C C 
+6 C       C C   C 
+7 C C C C C   C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0   C C     C C C 
+1 C C   C C C   C 
+2 C   C C     C C 
+3 C C C   C C C   
+4       C C       
+5 C C C C   C C C 
+6 C       C C   C 
+7 C C C C C   C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
 0 C C C   C C C C 
 1 C     C C     C 
+2 C   C C     C C 
+3 C C C   C C C   
+4       C C       
+5 C C C C   C C C 
+6 C       C C   C 
+7 C C C C C   C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0   C C   C C C C 
+1 C C   C C     C 
+2 C   C C     C C 
+3 C C C   C C C   
+4       C C       
+5 C C C C   C C C 
+6 C       C C   C 
+7 C C C C C   C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C   C C C C 
+1 C     C C     C 
+2 C   C C   C C C 
+3 C C C   C C     
+4       C C       
+5 C C C C   C C C 
+6 C       C C   C 
+7 C C C C C   C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0   C C   C C C C 
+1 C C   C C     C 
+2 C   C C       C 
+3 C C C   C C C C 
+4       C C       
+5 C C C C   C C C 
+6 C       C C   C 
+7 C C C C C   C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0   C C   C C C C 
+1 C C   C C     C 
 2 C   C C   C C C 
 3 C C C   C C     
 4       C C       
@@ -264,65 +319,10 @@ Count Colored: 42
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
-0   C C   C C C C 
-1 C C   C C     C 
+0 C C C   C C C C 
+1 C     C C     C 
 2 C   C C       C 
 3 C C C   C C C C 
-4       C C       
-5 C C C C   C C C 
-6 C       C C   C 
-7 C C C C C   C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0   C C   C C C C 
-1 C C   C C     C 
-2 C   C C   C C C 
-3 C C C   C C     
-4       C C       
-5 C C C C   C C C 
-6 C       C C   C 
-7 C C C C C   C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0   C C     C C C 
-1 C C   C C C   C 
-2 C   C C       C 
-3 C C C   C C C C 
-4       C C       
-5 C C C C   C C C 
-6 C       C C   C 
-7 C C C C C   C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0   C C     C C C 
-1 C C   C C C   C 
-2 C   C C     C C 
-3 C C C   C C C   
-4       C C       
-5 C C C C   C C C 
-6 C       C C   C 
-7 C C C C C   C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0   C C   C C C   
-1 C C   C C   C C 
-2 C   C C       C 
-3 C C C   C C C C 
-4       C C       
-5 C C C C   C C C 
-6 C       C C   C 
-7 C C C C C   C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0   C C   C C C C 
-1 C C   C C     C 
-2 C   C C     C C 
-3 C C C   C C C   
 4       C C       
 5 C C C C   C C C 
 6 C       C C   C 
@@ -385,6 +385,17 @@ Count Colored: 42
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
+0   C C C   C C   
+1 C C   C C   C C 
+2 C       C C   C 
+3 C C C C   C C C 
+4       C C       
+5 C C C   C C C C 
+6 C   C C       C 
+7 C C   C C C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
 0 C C C     C C   
 1 C   C C C   C C 
 2 C C     C C   C 
@@ -396,30 +407,8 @@ Count Colored: 42
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
-0 C C C C   C C   
-1 C     C C   C C 
-2 C C     C C   C 
-3   C C C   C C C 
-4       C C       
-5 C C C   C C C C 
-6 C   C C       C 
-7 C C   C C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
 0 C C C C   C C C 
 1 C     C C     C 
-2 C C     C C   C 
-3   C C C   C C C 
-4       C C       
-5 C C C   C C C C 
-6 C   C C       C 
-7 C C   C C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C C   C C   
-1 C     C C   C C 
 2 C       C C   C 
 3 C C C C   C C C 
 4       C C       
@@ -451,8 +440,19 @@ Count Colored: 42
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
-0 C C C     C C C 
-1 C   C C C     C 
+0 C C C C   C C   
+1 C     C C   C C 
+2 C       C C   C 
+3 C C C C   C C C 
+4       C C       
+5 C C C   C C C C 
+6 C   C C       C 
+7 C C   C C C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C   C C   
+1 C     C C   C C 
 2 C C     C C   C 
 3   C C C   C C C 
 4       C C       
@@ -464,8 +464,19 @@ Count Colored: 42
   0 1 2 3 4 5 6 7
 0 C C C C   C C C 
 1 C     C C     C 
-2 C       C C   C 
-3 C C C C   C C C 
+2 C C     C C   C 
+3   C C C   C C C 
+4       C C       
+5 C C C   C C C C 
+6 C   C C       C 
+7 C C   C C C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C     C C C 
+1 C   C C C     C 
+2 C C     C C   C 
+3   C C C   C C C 
 4       C C       
 5 C C C   C C C C 
 6 C   C C       C 
@@ -484,8 +495,8 @@ Count Colored: 42
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
-0   C C C   C C   
-1 C C   C C   C C 
+0 C C C     C C C 
+1 C   C C C     C 
 2 C       C C   C 
 3 C C C C   C C C 
 4       C C       
@@ -495,14 +506,25 @@ Count Colored: 42
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
-0 C C C     C C C 
-1 C   C C C     C 
-2 C       C C   C 
-3 C C C C   C C C 
-4       C C       
-5 C C C   C C C C 
-6 C   C C       C 
-7 C C   C C C C C 
+0 C C C C C   C C 
+1 C       C C   C 
+2 C C C C   C C C 
+3       C C       
+4 C C C   C C     
+5 C   C C   C C C 
+6 C     C C     C 
+7 C C C   C C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C C   C C 
+1 C       C C   C 
+2 C C C C   C C C 
+3       C C       
+4 C C C   C C     
+5 C   C C   C C C 
+6 C C   C C     C 
+7   C C   C C C C 
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
@@ -565,10 +587,54 @@ Count Colored: 42
 1 C       C C   C 
 2 C C C C   C C C 
 3       C C       
-4 C C C   C C     
-5 C   C C   C C C 
+4 C C C   C C C C 
+5 C   C         C 
+6 C     C C C   C 
+7 C C C C   C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C C   C C 
+1 C       C C   C 
+2 C C C C   C C C 
+3       C C       
+4 C C C   C C C C 
+5 C   C         C 
+6 C C   C C C   C 
+7   C C C   C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C C   C C 
+1 C       C C   C 
+2 C C C C   C C C 
+3       C C       
+4 C C C   C C C   
+5 C   C C     C C 
 6 C     C C     C 
 7 C C C   C C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C C   C C 
+1 C       C C   C 
+2 C C C C   C C C 
+3       C C       
+4 C C C   C C C   
+5 C   C C     C C 
+6 C C   C C C   C 
+7   C C     C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C C   C C 
+1 C       C C   C 
+2 C C C C   C C C 
+3       C C       
+4 C C C   C C C   
+5 C   C C     C C 
+6 C C   C C     C 
+7   C C   C C C C 
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
@@ -588,83 +654,6 @@ Count Colored: 42
 2 C C C C   C C C 
 3       C C       
 4 C C C   C C C C 
-5 C   C         C 
-6 C     C C C   C 
-7 C C C C   C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C C C   C C 
-1 C       C C   C 
-2 C C C C   C C C 
-3       C C       
-4 C C C   C C C C 
-5 C   C         C 
-6 C C   C C C   C 
-7   C C C   C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C C C   C C 
-1 C       C C   C 
-2 C C C C   C C C 
-3       C C       
-4 C C C   C C C   
-5 C   C C     C C 
-6 C     C C     C 
-7 C C C   C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C C C   C C 
-1 C       C C   C 
-2 C C C C   C C C 
-3       C C       
-4 C C C   C C C   
-5 C   C C     C C 
-6 C C   C C C   C 
-7   C C     C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C C C   C C 
-1 C       C C   C 
-2 C C C C   C C C 
-3       C C       
-4 C C C   C C C   
-5 C   C       C C 
-6 C     C C C   C 
-7 C C C C   C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C C C   C C 
-1 C       C C   C 
-2 C C C C   C C C 
-3       C C       
-4 C C C   C C C   
-5 C   C       C C 
-6 C C   C C C   C 
-7   C C C   C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C C C   C C 
-1 C       C C   C 
-2 C C C C   C C C 
-3       C C       
-4 C C C   C C     
-5 C   C C   C C C 
-6 C C   C C     C 
-7   C C   C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C C C   C C 
-1 C       C C   C 
-2 C C C C   C C C 
-3       C C       
-4 C C C   C C C C 
 5 C   C C       C 
 6 C C   C C     C 
 7   C C   C C C C 
@@ -676,20 +665,20 @@ Count Colored: 42
 2 C C C C   C C C 
 3       C C       
 4 C C C   C C C   
-5 C   C C     C C 
-6 C C   C C     C 
-7   C C   C C C C 
+5 C   C       C C 
+6 C     C C C   C 
+7 C C C C   C C C 
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
 0 C C C C C   C C 
 1 C       C C   C 
-2 C C C C   C   C 
-3       C C   C C 
-4 C C C   C   C   
-5 C   C C C   C C 
-6 C             C 
-7 C C C C C C C C 
+2 C C C C   C C C 
+3       C C       
+4 C C C   C C C   
+5 C   C       C C 
+6 C C   C C C   C 
+7   C C C   C C C 
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
@@ -704,6 +693,50 @@ Count Colored: 42
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
+0 C C C C C   C C 
+1 C       C C   C 
+2 C C C C   C   C 
+3       C C   C C 
+4 C C C   C   C   
+5 C   C C C   C C 
+6 C             C 
+7 C C C C C C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C     C C C 
+1 C   C   C C   C 
+2   C C   C     C 
+3 C C   C C   C C 
+4 C   C C   C C   
+5 C   C   C C   C 
+6 C   C   C   C C 
+7 C C C   C C C   
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C   C C C 
+1 C     C C C   C 
+2   C C         C 
+3 C C   C C C   C 
+4 C   C C   C   C 
+5 C   C   C C   C 
+6 C   C   C     C 
+7 C C C   C C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C   C C C 
+1 C     C C C   C 
+2   C C         C 
+3 C C   C C C   C 
+4 C   C C   C   C 
+5 C   C   C C   C 
+6 C   C   C   C C 
+7 C C C   C C C   
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
 0 C C C     C C C 
 1 C   C   C C   C 
 2   C C   C   C C 
@@ -737,69 +770,14 @@ Count Colored: 42
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
-0 C C C   C C C C 
-1 C   C   C     C 
+0 C C C     C C C 
+1 C   C   C C   C 
 2   C C   C   C C 
 3 C C   C C   C   
 4 C   C C   C C   
 5 C   C   C C   C 
 6 C   C   C   C C 
 7 C C C   C C C   
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C   C C C C 
-1 C   C   C     C 
-2   C C   C     C 
-3 C C   C C   C C 
-4 C   C C   C C   
-5 C   C   C C   C 
-6 C   C   C   C C 
-7 C C C   C C C   
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C   C C C C 
-1 C   C   C     C 
-2   C C   C     C 
-3 C C   C C   C C 
-4 C   C C   C C   
-5 C   C   C C   C 
-6 C   C   C     C 
-7 C C C   C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C   C C C C 
-1 C   C   C     C 
-2   C C   C   C C 
-3 C C   C C   C   
-4 C   C C   C C   
-5 C   C   C C   C 
-6 C   C   C     C 
-7 C C C   C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C   C C C C 
-1 C   C   C     C 
-2   C C   C   C C 
-3 C C   C C   C   
-4 C   C C     C C 
-5 C   C   C C   C 
-6 C   C   C   C C 
-7 C C C   C C C   
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C   C C C C 
-1 C   C   C     C 
-2   C C   C   C C 
-3 C C   C C   C   
-4 C   C C     C C 
-5 C   C   C C   C 
-6 C   C   C     C 
-7 C C C   C C C C 
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
@@ -809,8 +787,8 @@ Count Colored: 42
 3 C C   C C   C C 
 4 C   C C   C C   
 5 C   C   C C   C 
-6 C   C   C   C C 
-7 C C C   C C C   
+6 C   C   C     C 
+7 C C C   C C C C 
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
@@ -825,10 +803,10 @@ Count Colored: 42
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
-0 C C C     C C C 
-1 C   C   C C   C 
-2   C C   C   C C 
-3 C C   C C   C   
+0 C C C   C C C   
+1 C   C   C   C C 
+2   C C   C     C 
+3 C C   C C   C C 
 4 C   C C   C C   
 5 C   C   C C   C 
 6 C   C   C   C C 
@@ -838,17 +816,6 @@ Count Colored: 42
   0 1 2 3 4 5 6 7
 0 C C C     C C C 
 1 C   C   C C   C 
-2   C C   C     C 
-3 C C   C C   C C 
-4 C   C C   C C   
-5 C   C   C C   C 
-6 C   C   C     C 
-7 C C C   C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C     C C C 
-1 C   C   C C   C 
 2   C C   C   C C 
 3 C C   C C   C   
 4 C   C C   C C   
@@ -858,10 +825,10 @@ Count Colored: 42
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
-0 C C C   C C C   
-1 C   C   C   C C 
-2   C C   C     C 
-3 C C   C C   C C 
+0 C C C   C C C C 
+1 C   C   C     C 
+2   C C   C   C C 
+3 C C   C C   C   
 4 C   C C   C C   
 5 C   C   C C   C 
 6 C   C   C   C C 
@@ -880,30 +847,74 @@ Count Colored: 42
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
-0 C C C C   C C C 
-1 C     C C C   C 
-2   C C         C 
-3 C C   C C C   C 
-4 C   C C   C   C 
+0 C C C   C C C C 
+1 C   C   C     C 
+2   C C   C     C 
+3 C C   C C   C C 
+4 C   C C   C C   
 5 C   C   C C   C 
 6 C   C   C   C C 
 7 C C C   C C C   
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
-0 C C C C   C C C 
-1 C     C C C   C 
-2   C C         C 
-3 C C   C C C   C 
-4 C   C C   C   C 
+0 C C C   C C C C 
+1 C   C   C     C 
+2   C C   C     C 
+3 C C   C C   C C 
+4 C   C C   C C   
 5 C   C   C C   C 
 6 C   C   C     C 
 7 C C C   C C C C 
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
-0 C C C     C C C 
-1 C   C   C C   C 
+0 C C C   C C C C 
+1 C   C   C     C 
+2   C C   C   C C 
+3 C C   C C   C   
+4 C   C C     C C 
+5 C   C   C C   C 
+6 C   C   C   C C 
+7 C C C   C C C   
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C   C C C C 
+1 C   C   C     C 
+2   C C   C   C C 
+3 C C   C C   C   
+4 C   C C     C C 
+5 C   C   C C   C 
+6 C   C   C     C 
+7 C C C   C C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C   C C C C 
+1 C   C   C     C 
+2   C C   C   C C 
+3 C C   C C   C   
+4 C   C C   C C   
+5 C   C   C C   C 
+6 C   C   C     C 
+7 C C C   C C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C   C C C C 
+1 C   C   C     C 
+2 C C   C C     C 
+3   C   C   C C C 
+4 C C   C   C     
+5 C   C C   C C C 
+6 C   C   C     C 
+7 C C C   C C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C   C C C   
+1 C   C   C   C C 
 2 C C   C C     C 
 3   C   C   C C C 
 4 C C   C   C     
@@ -924,19 +935,8 @@ Count Colored: 42
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
-0 C C C   C C C   
-1 C   C   C   C C 
-2 C C   C C     C 
-3   C   C   C C C 
-4 C C   C   C     
-5 C   C C   C C C 
-6 C   C   C     C 
-7 C C C   C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C   C C C C 
-1 C   C   C     C 
+0 C C C     C C C 
+1 C   C   C C   C 
 2 C C   C C     C 
 3   C   C   C C C 
 4 C C   C   C     
@@ -963,8 +963,8 @@ Count Colored: 42
 3     C   C   C C 
 4   C C   C   C   
 5 C C   C C   C C 
-6 C     C   C   C 
-7 C C C C   C C C 
+6 C   C C   C   C 
+7 C C C     C C C 
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
@@ -986,28 +986,6 @@ Count Colored: 42
 4 C C         C   
 5 C   C C C   C C 
 6 C   C   C     C 
-7 C C C   C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C C   C C C 
-1 C     C   C   C 
-2 C C C   C C   C 
-3     C   C   C C 
-4   C C   C   C   
-5 C C   C C   C C 
-6 C   C C   C   C 
-7 C C C     C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C C   C C C 
-1 C     C   C   C 
-2 C C C   C C   C 
-3     C   C   C C 
-4   C C   C   C   
-5 C C   C C   C C 
-6 C   C C       C 
 7 C C C   C C C C 
 Count Colored: 42
 --------------------
@@ -1038,10 +1016,32 @@ Count Colored: 42
 1 C     C   C   C 
 2 C C C   C C   C 
 3     C   C   C C 
-4 C C C   C   C   
-5 C     C C   C C 
+4   C C   C   C   
+5 C C   C C   C C 
 6 C   C C       C 
 7 C C C   C C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C   C C C 
+1 C     C   C   C 
+2 C C C   C C   C 
+3     C   C   C C 
+4   C C   C   C   
+5 C C   C C   C C 
+6 C     C   C   C 
+7 C C C C   C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C   C C C 
+1 C     C   C   C 
+2 C C C   C C   C 
+3     C   C   C C 
+4 C C C   C   C   
+5 C     C C   C C 
+6 C     C   C   C 
+7 C C C C   C C C 
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
@@ -1060,9 +1060,9 @@ Count Colored: 42
 1 C     C   C   C 
 2 C C C   C C   C 
 3     C   C   C C 
-4   C C   C C     
-5 C C       C C C 
-6 C   C C C     C 
+4 C C C   C   C   
+5 C     C C   C C 
+6 C   C C       C 
 7 C C C   C C C C 
 Count Colored: 42
 --------------------
@@ -1071,10 +1071,10 @@ Count Colored: 42
 1 C     C   C   C 
 2 C C C   C C   C 
 3     C   C   C C 
-4 C C C   C   C   
-5 C     C C   C C 
-6 C     C   C   C 
-7 C C C C   C C C 
+4   C C   C C     
+5 C C       C C C 
+6 C   C C C     C 
+7 C C C   C C C C 
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
@@ -1082,10 +1082,10 @@ Count Colored: 42
 1 C   C   C     C 
 2 C   C C   C C C 
 3 C C   C   C     
-4   C   C   C C C 
-5 C C   C C     C 
-6 C   C   C   C C 
-7 C C C   C C C   
+4   C   C   C C   
+5 C C   C C   C C 
+6 C   C   C     C 
+7 C C C   C C C C 
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
@@ -1119,72 +1119,6 @@ Count Colored: 42
 5 C C   C C   C C 
 6 C   C   C C   C 
 7 C C C     C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C   C C C C 
-1 C   C   C     C 
-2 C   C C   C C C 
-3 C C   C   C     
-4   C   C   C C C 
-5 C C   C C     C 
-6 C   C   C     C 
-7 C C C   C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C   C C C C 
-1 C   C   C     C 
-2 C   C C   C C C 
-3 C C   C   C     
-4   C   C   C C   
-5 C C   C C   C C 
-6 C       C C   C 
-7 C C C C   C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C   C C C C 
-1 C   C   C     C 
-2 C   C C   C C C 
-3 C C   C C C     
-4   C         C C 
-5 C C   C C C   C 
-6 C     C   C   C 
-7 C C C C   C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C   C C C C 
-1 C   C   C     C 
-2 C   C C   C C C 
-3 C C   C C C     
-4   C         C C 
-5 C C   C C C   C 
-6 C   C C   C   C 
-7 C C C     C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C   C C C C 
-1 C   C   C     C 
-2 C   C C   C C C 
-3 C C   C   C     
-4   C   C   C C   
-5 C C   C C   C C 
-6 C   C   C     C 
-7 C C C   C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C   C C C C 
-1 C   C   C     C 
-2 C   C C   C C C 
-3 C C   C   C     
-4     C C   C C   
-5 C C C       C C 
-6 C     C C C   C 
-7 C C C C   C C C 
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
@@ -1199,6 +1133,83 @@ Count Colored: 42
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
+0 C C C   C C C C 
+1 C   C   C     C 
+2 C   C C   C C C 
+3 C C   C   C     
+4   C   C   C C   
+5 C C   C C   C C 
+6 C       C C   C 
+7 C C C C   C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C   C C C C 
+1 C   C   C     C 
+2 C   C C   C C C 
+3 C C   C   C     
+4   C   C   C C C 
+5 C C   C C     C 
+6 C   C   C   C C 
+7 C C C   C C C   
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C   C C C C 
+1 C   C   C     C 
+2 C   C C   C C C 
+3 C C   C   C     
+4   C   C   C C C 
+5 C C   C C     C 
+6 C   C   C     C 
+7 C C C   C C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C   C C C C 
+1 C   C   C     C 
+2 C   C C   C C C 
+3 C C   C C C     
+4   C         C C 
+5 C C   C C C   C 
+6 C     C   C   C 
+7 C C C C   C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C   C C C C 
+1 C   C   C     C 
+2 C   C C   C C C 
+3 C C   C C C     
+4   C         C C 
+5 C C   C C C   C 
+6 C   C C   C   C 
+7 C C C     C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C   C C C C 
+1 C   C   C     C 
+2 C   C C   C C C 
+3 C C   C   C     
+4     C C   C C   
+5 C C C       C C 
+6 C     C C C   C 
+7 C C C C   C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C   C C C 
+1 C     C   C   C 
+2 C C   C C   C C 
+3   C C   C   C   
+4     C   C   C C 
+5 C C C   C C   C 
+6 C     C   C   C 
+7 C C C C   C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
 0 C C C C   C C C 
 1 C     C   C   C 
 2 C     C C   C C 
@@ -1210,10 +1221,10 @@ Count Colored: 42
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
-0 C C C C   C C C 
-1 C     C   C   C 
-2 C C   C C   C C 
-3   C C   C   C   
+0 C C C     C C C 
+1 C   C C   C   C 
+2 C     C C   C C 
+3 C C C   C   C   
 4     C   C   C C 
 5 C C C   C C   C 
 6 C     C   C   C 
@@ -1234,17 +1245,6 @@ Count Colored: 42
   0 1 2 3 4 5 6 7
 0 C C C     C C C 
 1 C   C C   C   C 
-2 C     C C   C C 
-3 C C C   C   C   
-4     C   C   C C 
-5 C C C   C C   C 
-6 C     C   C   C 
-7 C C C C   C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C     C C C 
-1 C   C C   C   C 
 2 C C   C C   C C 
 3   C C   C   C   
 4     C   C   C C 
@@ -1260,8 +1260,8 @@ Count Colored: 42
 3 C   C C C   C C 
 4 C   C   C C   C 
 5 C   C C   C   C 
-6 C C   C   C   C 
-7   C C C   C C C 
+6 C     C   C   C 
+7 C C C C   C C C 
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
@@ -1271,8 +1271,8 @@ Count Colored: 42
 3 C   C C C   C C 
 4 C   C   C C   C 
 5 C   C C   C   C 
-6 C     C   C   C 
-7 C C C C   C C C 
+6 C C   C   C   C 
+7   C C C   C C C 
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
@@ -1309,10 +1309,120 @@ Count Colored: 42
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
-0 C C C     C C C 
-1 C   C C   C   C 
+0 C C C C   C C C 
+1 C     C   C   C 
 2 C     C   C C   
 3 C C   C C   C C 
+4   C C   C C   C 
+5 C   C C   C   C 
+6 C C   C   C   C 
+7   C C C   C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C     C C C 
+1 C   C C   C   C 
+2 C C   C   C C   
+3   C   C C   C C 
+4 C C     C C   C 
+5 C   C C   C   C 
+6 C C   C   C   C 
+7   C C C   C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C     C C C 
+1 C   C C   C   C 
+2 C C   C   C C   
+3   C   C C   C C 
+4 C C     C C   C 
+5 C   C C   C   C 
+6 C     C   C   C 
+7 C C C C   C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C     C C C 
+1 C   C C   C   C 
+2 C C   C   C C   
+3   C   C C   C C 
+4   C C   C C   C 
+5 C   C C   C   C 
+6 C C   C   C   C 
+7   C C C   C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C   C C C 
+1 C     C   C   C 
+2 C C   C   C C   
+3   C   C C   C C 
+4   C C   C C   C 
+5 C   C C   C   C 
+6 C C   C   C   C 
+7   C C C   C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0   C C C   C C C 
+1 C C   C   C   C 
+2 C     C   C C   
+3 C C   C C   C C 
+4   C C   C C   C 
+5 C   C C   C   C 
+6 C     C   C   C 
+7 C C C C   C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C   C C C 
+1 C     C   C   C 
+2 C C   C   C C   
+3   C   C C   C C 
+4 C C     C C   C 
+5 C   C C   C   C 
+6 C C   C   C   C 
+7   C C C   C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C   C C C 
+1 C     C   C   C 
+2 C C   C   C C   
+3   C   C C   C C 
+4 C C     C C   C 
+5 C   C C   C   C 
+6 C     C   C   C 
+7 C C C C   C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C   C C C 
+1 C     C   C   C 
+2 C C   C   C C   
+3   C   C C   C C 
+4   C C   C C   C 
+5 C   C C   C   C 
+6 C     C   C   C 
+7 C C C C   C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C   C C C 
+1 C     C   C   C 
+2 C     C   C C   
+3 C C   C C   C C 
+4   C C   C C   C 
+5 C   C C   C   C 
+6 C     C   C   C 
+7 C C C C   C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C     C C C 
+1 C   C C   C   C 
+2 C C   C   C C   
+3   C   C C   C C 
 4   C C   C C   C 
 5 C   C C   C   C 
 6 C     C   C   C 
@@ -1331,135 +1441,14 @@ Count Colored: 42
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
-0   C C C   C C C 
-1 C C   C   C   C 
+0 C C C     C C C 
+1 C   C C   C   C 
 2 C     C   C C   
 3 C C   C C   C C 
 4   C C   C C   C 
 5 C   C C   C   C 
 6 C     C   C   C 
 7 C C C C   C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C     C C C 
-1 C   C C   C   C 
-2 C C   C   C C   
-3   C   C C   C C 
-4   C C   C C   C 
-5 C   C C   C   C 
-6 C C   C   C   C 
-7   C C C   C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C     C C C 
-1 C   C C   C   C 
-2 C C   C   C C   
-3   C   C C   C C 
-4 C C     C C   C 
-5 C   C C   C   C 
-6 C C   C   C   C 
-7   C C C   C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C     C C C 
-1 C   C C   C   C 
-2 C C   C   C C   
-3   C   C C   C C 
-4 C C     C C   C 
-5 C   C C   C   C 
-6 C     C   C   C 
-7 C C C C   C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C C   C C C 
-1 C     C   C   C 
-2 C C   C   C C   
-3   C   C C   C C 
-4   C C   C C   C 
-5 C   C C   C   C 
-6 C C   C   C   C 
-7   C C C   C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C C   C C C 
-1 C     C   C   C 
-2 C     C   C C   
-3 C C   C C   C C 
-4   C C   C C   C 
-5 C   C C   C   C 
-6 C C   C   C   C 
-7   C C C   C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C     C C C 
-1 C   C C   C   C 
-2 C C   C   C C   
-3   C   C C   C C 
-4   C C   C C   C 
-5 C   C C   C   C 
-6 C     C   C   C 
-7 C C C C   C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C C   C C C 
-1 C     C   C   C 
-2 C C   C   C C   
-3   C   C C   C C 
-4   C C   C C   C 
-5 C   C C   C   C 
-6 C     C   C   C 
-7 C C C C   C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C C   C C C 
-1 C     C   C   C 
-2 C     C   C C   
-3 C C   C C   C C 
-4   C C   C C   C 
-5 C   C C   C   C 
-6 C     C   C   C 
-7 C C C C   C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C C   C C C 
-1 C     C   C   C 
-2 C C   C   C C   
-3   C   C C   C C 
-4 C C     C C   C 
-5 C   C C   C   C 
-6 C C   C   C   C 
-7   C C C   C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C C   C C C 
-1 C     C   C   C 
-2 C C   C   C C   
-3   C   C C   C C 
-4 C C     C C   C 
-5 C   C C   C   C 
-6 C     C   C   C 
-7 C C C C   C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C C   C C C 
-1 C     C   C   C 
-2 C   C C   C   C 
-3   C C   C C   C 
-4 C C   C C   C C 
-5 C     C   C C   
-6 C C   C   C   C 
-7   C C C   C C C 
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
@@ -1467,8 +1456,8 @@ Count Colored: 42
 1 C C   C   C   C 
 2 C   C C   C   C 
 3   C C   C C   C 
-4 C C   C C   C C 
-5 C     C   C C   
+4   C   C C   C C 
+5 C C   C   C C   
 6 C     C   C   C 
 7 C C C C   C C C 
 Count Colored: 42
@@ -1502,30 +1491,19 @@ Count Colored: 42
 3   C C   C C   C 
 4 C C   C C   C C 
 5 C     C   C C   
-6 C   C C   C   C 
-7 C C C     C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C C   C C C 
-1 C     C   C   C 
-2 C   C C   C   C 
-3   C C   C C   C 
-4   C   C C   C C 
-5 C C   C   C C   
-6 C   C C   C   C 
-7 C C C     C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C C   C C C 
-1 C     C   C   C 
-2 C   C C   C   C 
-3   C C   C C   C 
-4   C   C C   C C 
-5 C C   C   C C   
 6 C     C   C   C 
 7 C C C C   C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0   C C C   C C C 
+1 C C   C   C   C 
+2 C   C C   C   C 
+3   C C   C C   C 
+4 C C   C C   C C 
+5 C     C   C C   
+6 C   C C   C   C 
+7 C C C     C C C 
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
@@ -1544,8 +1522,8 @@ Count Colored: 42
 1 C     C   C   C 
 2 C   C C   C   C 
 3   C C   C C   C 
-4 C C   C C   C C 
-5 C     C   C C   
+4   C   C C   C C 
+5 C C   C   C C   
 6 C     C   C   C 
 7 C C C C   C C C 
 Count Colored: 42
@@ -1568,19 +1546,63 @@ Count Colored: 42
 3   C C   C C   C 
 4 C C   C C   C C 
 5 C     C   C C   
+6 C     C   C   C 
+7 C C C C   C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C   C C C 
+1 C     C   C   C 
+2 C   C C   C   C 
+3   C C   C C   C 
+4 C C   C C   C C 
+5 C     C   C C   
 6 C   C C   C   C 
 7 C C C     C C C 
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
-0   C C C   C C C 
-1 C C   C   C   C 
+0 C C C C   C C C 
+1 C     C   C   C 
+2 C   C C   C   C 
+3   C C   C C   C 
+4 C C   C C   C C 
+5 C     C   C C   
+6 C C   C   C   C 
+7   C C C   C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C   C C C 
+1 C     C   C   C 
 2 C   C C   C   C 
 3   C C   C C   C 
 4   C   C C   C C 
 5 C C   C   C C   
+6 C   C C   C   C 
+7 C C C     C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C   C C C C 
+1 C   C C C     C 
+2 C C       C C C 
+3     C C C C     
+4   C C       C C 
+5 C C   C C C   C 
 6 C     C   C   C 
 7 C C C C   C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C   C C C C 
+1 C   C C C     C 
+2 C C       C C C 
+3     C C C C     
+4   C C       C C 
+5 C C   C C C   C 
+6 C   C C   C   C 
+7 C C C     C C C 
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
@@ -1617,23 +1639,12 @@ Count Colored: 42
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
-0 C C C   C C C C 
-1 C   C C C     C 
-2 C C       C C C 
-3     C C C C     
-4   C C       C C 
-5 C C   C C C   C 
-6 C     C   C   C 
-7 C C C C   C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C   C C C C 
-1 C   C C C     C 
-2 C C       C C C 
-3     C C C C     
-4   C C       C C 
-5 C C   C C C   C 
+0 C C C C   C C C 
+1 C     C   C   C 
+2 C   C C   C   C 
+3 C C     C C   C 
+4   C   C C   C C 
+5 C C   C   C C   
 6 C   C C   C   C 
 7 C C C     C C C 
 Count Colored: 42
@@ -1641,6 +1652,17 @@ Count Colored: 42
   0 1 2 3 4 5 6 7
 0   C C C   C C C 
 1 C C   C   C   C 
+2 C   C C   C   C 
+3 C C     C C   C 
+4   C   C C   C C 
+5 C C   C   C C   
+6 C   C C   C   C 
+7 C C C     C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C   C C C 
+1 C     C   C   C 
 2 C   C C   C   C 
 3 C C     C C   C 
 4   C   C C   C C 
@@ -1672,14 +1694,25 @@ Count Colored: 42
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
-0 C C C C   C C C 
-1 C     C   C   C 
-2 C   C C   C   C 
-3 C C     C C   C 
-4   C   C C   C C 
-5 C C   C   C C   
-6 C   C C   C   C 
-7 C C C     C C C 
+0 C C   C C C C C 
+1 C   C C       C 
+2 C   C   C C C C 
+3 C C   C C       
+4   C   C   C C C 
+5 C C   C C C   C 
+6 C             C 
+7 C C C C C C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0   C C C   C C C 
+1 C C   C C C   C 
+2 C   C       C C 
+3 C C C   C C C   
+4       C C       
+5 C C C C   C C C 
+6 C       C C   C 
+7 C C C C C   C C 
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
@@ -1689,59 +1722,15 @@ Count Colored: 42
 3 C C     C C   C 
 4   C   C C   C C 
 5 C C   C   C C   
-6 C   C C   C   C 
-7 C C C     C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C C   C C C 
-1 C     C C C   C 
-2 C   C       C C 
-3 C C C   C C C   
-4       C C       
-5 C C C C   C C C 
-6 C       C C   C 
-7 C C C C C   C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C C   C C C 
-1 C     C C C   C 
-2 C   C         C 
-3 C C C   C C C C 
-4       C C       
-5 C C C C   C C C 
-6 C       C C   C 
-7 C C C C C   C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C C   C C C 
-1 C     C   C   C 
-2 C   C C   C   C 
-3 C C     C C   C 
-4   C   C C   C C 
-5 C C   C   C C   
 6 C     C   C   C 
 7 C C C C   C C C 
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
-0   C C C   C C C 
-1 C C   C C C   C 
+0 C C C C   C C C 
+1 C     C C C   C 
 2 C   C         C 
 3 C C C   C C C C 
-4       C C       
-5 C C C C   C C C 
-6 C       C C   C 
-7 C C C C C   C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0   C C C   C C C 
-1 C C   C C C   C 
-2 C   C       C C 
-3 C C C   C C C   
 4       C C       
 5 C C C C   C C C 
 6 C       C C   C 
@@ -1760,58 +1749,36 @@ Count Colored: 42
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
-0 C C   C C C C C 
-1 C   C C       C 
-2 C   C   C C C C 
-3 C C   C C       
-4   C   C   C C C 
-5 C C   C C C   C 
-6 C             C 
-7 C C C C C C C C 
+0   C C C   C C C 
+1 C C   C C C   C 
+2 C   C         C 
+3 C C C   C C C C 
+4       C C       
+5 C C C C   C C C 
+6 C       C C   C 
+7 C C C C C   C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C   C C C 
+1 C     C C C   C 
+2 C   C       C C 
+3 C C C   C C C   
+4       C C       
+5 C C C C   C C C 
+6 C       C C   C 
+7 C C C C C   C C 
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
 0 C C C   C C C   
-1 C   C   C   C C 
-2 C   C   C C   C 
-3 C   C C     C C 
-4 C C   C C   C   
-5   C C   C   C C 
-6 C   C   C C   C 
-7 C C C     C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C   C C C   
-1 C   C   C   C C 
-2 C   C   C C   C 
-3 C   C C     C C 
-4 C C   C C   C   
-5   C C   C   C C 
-6 C   C   C     C 
-7 C C C   C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C   C C C C 
-1 C   C   C     C 
-2 C   C   C C   C 
-3 C   C C     C C 
-4 C C   C C   C   
-5   C C   C   C C 
-6 C   C   C C   C 
-7 C C C     C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C   C C C C 
-1 C   C   C     C 
-2 C   C   C C   C 
-3 C   C C     C C 
-4 C C   C C   C   
-5   C C   C   C C 
-6 C   C   C     C 
-7 C C C   C C C C 
+1 C   C C C   C C 
+2 C         C   C 
+3 C C C C   C C C 
+4       C C       
+5 C C C   C C C C 
+6 C   C C       C 
+7 C C   C C C C C 
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
@@ -1823,6 +1790,61 @@ Count Colored: 42
 5 C   C C   C   C 
 6 C C   C   C   C 
 7   C C C   C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C   C C C   
+1 C   C C C   C C 
+2 C C       C   C 
+3   C C C   C C C 
+4       C C       
+5 C C C   C C C C 
+6 C   C C       C 
+7 C C   C C C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C   C C C C 
+1 C   C C C     C 
+2 C         C   C 
+3 C C C C   C C C 
+4       C C       
+5 C C C   C C C C 
+6 C   C C       C 
+7 C C   C C C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C   C C C   
+1 C   C   C   C C 
+2 C   C   C C   C 
+3 C   C C     C C 
+4 C C   C C   C   
+5   C C   C   C C 
+6 C   C   C C   C 
+7 C C C     C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C   C C C   
+1 C   C   C   C C 
+2 C   C   C C   C 
+3 C   C C     C C 
+4 C C   C C   C   
+5   C C   C   C C 
+6 C   C   C     C 
+7 C C C   C C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C   C C C C 
+1 C   C C C     C 
+2 C C       C   C 
+3   C C C   C C C 
+4       C C       
+5 C C C   C C C C 
+6 C   C C       C 
+7 C C   C C C C C 
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
@@ -1838,24 +1860,24 @@ Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
 0 C C C   C C C C 
-1 C   C C C     C 
-2 C C       C   C 
-3   C C C   C C C 
-4       C C       
-5 C C C   C C C C 
-6 C   C C       C 
-7 C C   C C C C C 
+1 C   C   C     C 
+2 C   C   C C   C 
+3 C   C C     C C 
+4 C C   C C   C   
+5   C C   C   C C 
+6 C   C   C C   C 
+7 C C C     C C C 
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
-0 C C C   C C C   
-1 C   C C C   C C 
-2 C         C   C 
-3 C C C C   C C C 
-4       C C       
-5 C C C   C C C C 
-6 C   C C       C 
-7 C C   C C C C C 
+0 C C C   C C C C 
+1 C   C   C     C 
+2 C   C   C C   C 
+3 C   C C     C C 
+4 C C   C C   C   
+5   C C   C   C C 
+6 C   C   C     C 
+7 C C C   C C C C 
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
@@ -1881,28 +1903,6 @@ Count Colored: 42
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
-0 C C C   C C C C 
-1 C   C C C     C 
-2 C         C   C 
-3 C C C C   C C C 
-4       C C       
-5 C C C   C C C C 
-6 C   C C       C 
-7 C C   C C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C   C C C   
-1 C   C C C   C C 
-2 C C       C   C 
-3   C C C   C C C 
-4       C C       
-5 C C C   C C C C 
-6 C   C C       C 
-7 C C   C C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
 0 C C C C   C C C 
 1 C     C C C   C 
 2 C C C       C C 
@@ -1929,6 +1929,28 @@ Count Colored: 42
 1 C     C C C   C 
 2 C C C       C C 
 3     C C C C     
+4 C C       C C C 
+5 C   C C C     C 
+6 C   C   C   C C 
+7 C C C   C C C   
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C   C C C 
+1 C     C C C   C 
+2 C C C       C C 
+3     C C C C     
+4 C C       C C C 
+5 C   C C C     C 
+6 C   C   C     C 
+7 C C C   C C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C   C C C 
+1 C     C C C   C 
+2 C C C       C C 
+3     C C C C     
 4 C C       C C   
 5 C   C C C   C C 
 6 C   C   C     C 
@@ -1936,23 +1958,34 @@ Count Colored: 42
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
-0 C C C C   C C C 
-1 C     C C C   C 
-2 C C C       C C 
-3     C C C C     
-4 C C       C C C 
-5 C   C C C     C 
+0 C C C   C C C C 
+1 C   C   C     C 
+2 C   C   C C   C 
+3 C   C C   C C   
+4 C C   C C   C   
+5   C C   C   C C 
+6 C   C   C C   C 
+7 C C C     C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C   C C C C 
+1 C   C   C     C 
+2 C   C   C C   C 
+3 C   C C   C C   
+4 C C   C C   C C 
+5   C C   C     C 
 6 C   C   C   C C 
 7 C C C   C C C   
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
-0 C C C C   C C C 
-1 C     C C C   C 
-2 C C C       C C 
-3     C C C C     
-4 C C       C C C 
-5 C   C C C     C 
+0 C C C   C C C C 
+1 C   C   C     C 
+2 C   C   C C   C 
+3 C   C C   C C   
+4 C C   C C   C C 
+5   C C   C     C 
 6 C   C   C     C 
 7 C C C   C C C C 
 Count Colored: 42
@@ -1966,61 +1999,6 @@ Count Colored: 42
 5   C C   C C   C 
 6 C   C     C   C 
 7 C C C     C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C   C C C C 
-1 C   C   C     C 
-2 C   C   C C   C 
-3 C   C C   C C   
-4 C C   C C   C C 
-5   C C   C     C 
-6 C   C   C     C 
-7 C C C   C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C   C C C C 
-1 C   C   C     C 
-2 C   C   C C   C 
-3 C   C C   C C   
-4 C C   C C   C   
-5   C C   C   C C 
-6 C   C   C C   C 
-7 C C C     C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C   C C C   
-1 C   C   C   C C 
-2 C   C   C C   C 
-3 C   C C   C C   
-4 C C   C C   C   
-5   C C   C   C C 
-6 C   C   C C   C 
-7 C C C     C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C   C C C C 
-1 C   C   C     C 
-2 C   C   C C   C 
-3 C   C C   C C   
-4 C C   C C   C C 
-5   C C   C     C 
-6 C   C   C C   C 
-7 C C C     C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C   C C C   
-1 C   C   C   C C 
-2 C   C   C C   C 
-3 C   C C   C C   
-4 C C   C C   C C 
-5   C C   C     C 
-6 C   C   C   C C 
-7 C C C   C C C   
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
@@ -2046,6 +2024,17 @@ Count Colored: 42
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
+0 C C C   C C C C 
+1 C   C   C     C 
+2 C   C   C C   C 
+3 C   C C   C C   
+4 C C   C C   C C 
+5   C C   C     C 
+6 C   C   C C   C 
+7 C C C     C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
 0 C C C   C C C   
 1 C   C   C   C C 
 2 C   C   C C   C 
@@ -2061,6 +2050,17 @@ Count Colored: 42
 1 C   C   C   C C 
 2 C   C   C C   C 
 3 C   C C   C C   
+4 C C   C C   C C 
+5   C C   C     C 
+6 C   C   C     C 
+7 C C C   C C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C   C C C   
+1 C   C   C   C C 
+2 C   C   C C   C 
+3 C   C C   C C   
 4 C C   C C   C   
 5   C C   C   C C 
 6 C   C   C     C 
@@ -2068,14 +2068,14 @@ Count Colored: 42
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
-0 C C C   C C C C 
-1 C   C   C     C 
+0 C C C   C C C   
+1 C   C   C   C C 
 2 C   C   C C   C 
 3 C   C C   C C   
-4 C C   C C   C C 
-5   C C   C     C 
-6 C   C   C   C C 
-7 C C C   C C C   
+4 C C   C C   C   
+5   C C   C   C C 
+6 C   C   C C   C 
+7 C C C     C C C 
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
@@ -2085,8 +2085,8 @@ Count Colored: 42
 3 C   C C   C C   
 4 C C   C C   C C 
 5   C C   C     C 
-6 C   C   C     C 
-7 C C C   C C C C 
+6 C   C   C   C C 
+7 C C C   C C C   
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
@@ -2115,21 +2115,10 @@ Count Colored: 42
 0 C C C   C C C C 
 1 C   C   C     C 
 2 C   C C C   C C 
-3 C C         C   
-4     C C C   C C 
-5 C C C   C C   C 
-6 C     C   C   C 
-7 C C C C   C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C     C C C 
-1 C   C   C C   C 
-2 C   C C C   C C 
-3 C C         C   
-4     C C C   C C 
-5 C C C   C C   C 
-6 C     C   C   C 
+3 C C       C C   
+4     C C C C   C 
+5 C C C         C 
+6 C     C C C   C 
 7 C C C C   C C C 
 Count Colored: 42
 --------------------
@@ -2145,12 +2134,45 @@ Count Colored: 42
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
-0 C C C   C C C C 
-1 C   C   C     C 
+0 C C C     C C C 
+1 C   C   C C   C 
+2 C   C C C     C 
+3 C C       C C C 
+4     C C C C     
+5 C C C       C C 
+6 C     C C C   C 
+7 C C C C   C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C     C C C 
+1 C   C   C C   C 
+2 C   C C C   C C 
+3 C C         C   
+4     C C C   C C 
+5 C C C   C C   C 
+6 C     C   C   C 
+7 C C C C   C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C     C C C 
+1 C   C   C C   C 
 2 C   C C C   C C 
 3 C C       C C   
 4     C C C C   C 
 5 C C C         C 
+6 C     C C C   C 
+7 C C C C   C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C     C C C 
+1 C   C   C C   C 
+2 C   C C C   C C 
+3 C C       C C   
+4     C C C C     
+5 C C C       C C 
 6 C     C C C   C 
 7 C C C C   C C C 
 Count Colored: 42
@@ -2167,28 +2189,6 @@ Count Colored: 42
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
-0 C C C     C C C 
-1 C   C   C C   C 
-2 C   C C C     C 
-3 C C       C C C 
-4     C C C C     
-5 C C C       C C 
-6 C     C C C   C 
-7 C C C C   C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C     C C C 
-1 C   C   C C   C 
-2 C   C C C   C C 
-3 C C       C C   
-4     C C C C   C 
-5 C C C         C 
-6 C     C C C   C 
-7 C C C C   C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
 0 C C C   C C C C 
 1 C   C   C     C 
 2 C   C C C   C C 
@@ -2200,11 +2200,22 @@ Count Colored: 42
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
-0 C C C     C C C 
-1 C   C   C C   C 
+0 C C C   C C C C 
+1 C   C   C     C 
 2 C   C C C   C C 
-3 C C       C C   
-4     C C C C     
+3 C C         C   
+4     C C C   C C 
+5 C C C   C C   C 
+6 C     C   C   C 
+7 C C C C   C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C   C C C C 
+1 C   C   C     C 
+2 C   C C   C C C 
+3 C C   C   C     
+4     C C   C C   
 5 C C C       C C 
 6 C     C C C   C 
 7 C C C C   C C C 
@@ -2217,17 +2228,6 @@ Count Colored: 42
 3 C C   C   C     
 4     C C   C C C 
 5 C C C         C 
-6 C     C C C   C 
-7 C C C C   C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C   C C C C 
-1 C   C   C     C 
-2 C   C C   C C C 
-3 C C   C   C     
-4     C C   C C   
-5 C C C       C C 
 6 C     C C C   C 
 7 C C C C   C C C 
 Count Colored: 42
@@ -2257,8 +2257,30 @@ Count Colored: 42
   0 1 2 3 4 5 6 7
 0 C C C C   C C C 
 1 C     C   C   C 
-2 C     C C C   C 
-3 C C C       C C 
+2 C C C   C C   C 
+3     C   C   C C 
+4 C C C   C C     
+5 C         C C C 
+6 C   C C C     C 
+7 C C C   C C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C   C C C 
+1 C     C   C   C 
+2 C C   C C C   C 
+3   C C       C C 
+4 C   C C C C     
+5 C         C C C 
+6 C   C C C     C 
+7 C C C   C C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C   C C C 
+1 C     C   C   C 
+2 C C   C C C   C 
+3   C C       C C 
 4     C C C C     
 5 C C       C C C 
 6 C   C C C     C 
@@ -2288,33 +2310,11 @@ Count Colored: 42
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
-0 C C C C   C C C 
-1 C     C   C   C 
-2 C C C   C C   C 
-3     C   C   C C 
-4 C C C   C C     
-5 C         C C C 
-6 C   C C C     C 
-7 C C C   C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
 0 C C C     C C C 
 1 C   C C   C   C 
 2 C C   C C C   C 
 3   C C       C C 
 4     C C C C     
-5 C C       C C C 
-6 C   C C C     C 
-7 C C C   C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C C   C C C 
-1 C     C   C   C 
-2 C C C   C C   C 
-3     C   C   C C 
-4   C C   C C     
 5 C C       C C C 
 6 C   C C C     C 
 7 C C C   C C C C 
@@ -2334,10 +2334,10 @@ Count Colored: 42
   0 1 2 3 4 5 6 7
 0 C C C C   C C C 
 1 C     C   C   C 
-2 C C   C C C   C 
-3   C C       C C 
-4 C   C C C C     
-5 C         C C C 
+2 C     C C C   C 
+3 C C C       C C 
+4     C C C C     
+5 C C       C C C 
 6 C   C C C     C 
 7 C C C   C C C C 
 Count Colored: 42
@@ -2345,9 +2345,9 @@ Count Colored: 42
   0 1 2 3 4 5 6 7
 0 C C C C   C C C 
 1 C     C   C   C 
-2 C C   C C C   C 
-3   C C       C C 
-4     C C C C     
+2 C C C   C C   C 
+3     C   C   C C 
+4   C C   C C     
 5 C C       C C C 
 6 C   C C C     C 
 7 C C C   C C C C 
@@ -2399,6 +2399,61 @@ Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
 0 C C C C   C C C 
+1 C     C C C   C 
+2 C C C       C C 
+3     C C C C     
+4 C C       C C C 
+5 C   C C C     C 
+6 C   C   C C   C 
+7 C C C     C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C   C C C 
+1 C     C C C   C 
+2 C C C         C 
+3     C C C C   C 
+4 C C       C C   
+5 C   C C C   C C 
+6 C   C   C C   C 
+7 C C C     C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C   C C C 
+1 C     C C C   C 
+2 C C C       C C 
+3     C C C C     
+4 C C       C C   
+5 C   C C C   C C 
+6 C   C   C C   C 
+7 C C C     C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C   C C C 
+1 C     C C C   C 
+2 C C C       C C 
+3     C C C C     
+4 C C       C C C 
+5 C   C C C     C 
+6 C   C   C   C C 
+7 C C C   C C C   
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C   C C C 
+1 C     C   C   C 
+2 C C C   C C   C 
+3     C C C   C C 
+4 C C         C   
+5 C   C C C   C C 
+6 C   C   C     C 
+7 C C C   C C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C   C C C 
 1 C     C   C   C 
 2 C C C   C C   C 
 3     C C C   C C 
@@ -2406,6 +2461,39 @@ Count Colored: 42
 5 C   C C C   C C 
 6 C   C   C C   C 
 7 C C C     C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C   C C C 
+1 C     C C C   C 
+2 C C C         C 
+3     C C C C   C 
+4 C C       C C   
+5 C   C C C   C C 
+6 C   C   C     C 
+7 C C C   C C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C   C C C 
+1 C     C C C   C 
+2 C C C       C C 
+3     C C C C     
+4 C C       C C   
+5 C   C C C   C C 
+6 C   C   C     C 
+7 C C C   C C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C   C C C 
+1 C     C C C   C 
+2 C C C       C C 
+3     C C   C C   
+4 C C   C   C     
+5 C   C C   C C C 
+6 C   C   C     C 
+7 C C C   C C C C 
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
@@ -2428,105 +2516,6 @@ Count Colored: 42
 5 C   C C C     C 
 6 C   C   C     C 
 7 C C C   C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C C   C C C 
-1 C     C C C   C 
-2 C C C       C C 
-3     C C   C C   
-4 C C   C   C     
-5 C   C C   C C C 
-6 C   C   C     C 
-7 C C C   C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C C   C C C 
-1 C     C C C   C 
-2 C C C         C 
-3     C C C C   C 
-4 C C       C C   
-5 C   C C C   C C 
-6 C   C   C C   C 
-7 C C C     C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C C   C C C 
-1 C     C C C   C 
-2 C C C       C C 
-3     C C C C     
-4 C C       C C C 
-5 C   C C C     C 
-6 C   C   C   C C 
-7 C C C   C C C   
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C C   C C C 
-1 C     C   C   C 
-2 C C C   C C   C 
-3     C C C   C C 
-4 C C         C   
-5 C   C C C   C C 
-6 C   C   C     C 
-7 C C C   C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C C   C C C 
-1 C     C C C   C 
-2 C C C       C C 
-3     C C C C     
-4 C C       C C   
-5 C   C C C   C C 
-6 C   C   C C   C 
-7 C C C     C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C C   C C C 
-1 C     C C C   C 
-2 C C C       C C 
-3     C C C C     
-4 C C       C C C 
-5 C   C C C     C 
-6 C   C   C C   C 
-7 C C C     C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C C   C C C 
-1 C     C C C   C 
-2 C C C         C 
-3     C C C C   C 
-4 C C       C C   
-5 C   C C C   C C 
-6 C   C   C     C 
-7 C C C   C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C C   C C C 
-1 C     C C C   C 
-2 C C C       C C 
-3     C C C C     
-4 C C       C C   
-5 C   C C C   C C 
-6 C   C   C     C 
-7 C C C   C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C   C C C C 
-1 C   C C C     C 
-2 C C       C C C 
-3   C C   C C     
-4     C   C   C C 
-5 C C C   C C   C 
-6 C     C   C   C 
-7 C C C C   C C C 
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
@@ -2554,21 +2543,10 @@ Count Colored: 42
   0 1 2 3 4 5 6 7
 0 C C C   C C C C 
 1 C   C C C     C 
-2 C C       C C C 
-3     C C C C     
-4 C C C       C C 
-5 C     C C C   C 
-6 C C   C   C   C 
-7   C C C   C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C   C C C C 
-1 C   C C C     C 
-2 C C       C C C 
-3     C C C C     
-4 C C C       C C 
-5 C     C C C   C 
+2 C         C C C 
+3 C   C C C C     
+4   C C       C C 
+5 C C   C C C   C 
 6 C     C   C   C 
 7 C C C C   C C C 
 Count Colored: 42
@@ -2576,10 +2554,10 @@ Count Colored: 42
   0 1 2 3 4 5 6 7
 0 C C C   C C C C 
 1 C   C C C     C 
-2 C         C C C 
-3 C   C C C C     
-4   C C       C C 
-5 C C   C C C   C 
+2 C C       C C C 
+3     C C C C     
+4 C C C       C C 
+5 C     C C C   C 
 6 C     C   C   C 
 7 C C C C   C C C 
 Count Colored: 42
@@ -2610,11 +2588,22 @@ Count Colored: 42
 0 C C C   C C C C 
 1 C   C C C     C 
 2 C C       C C C 
+3   C C   C C     
+4     C   C   C C 
+5 C C C   C C   C 
+6 C     C   C   C 
+7 C C C C   C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C   C C C C 
+1 C   C C C     C 
+2 C C       C C C 
 3     C C C C     
 4 C C C       C C 
 5 C     C C C   C 
-6 C   C C   C   C 
-7 C C C     C C C 
+6 C C   C   C   C 
+7   C C C   C C C 
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
@@ -2635,6 +2624,17 @@ Count Colored: 42
 3     C C C C     
 4   C C       C C 
 5 C C   C C C   C 
+6 C   C C   C   C 
+7 C C C     C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C   C C C C 
+1 C   C C C     C 
+2 C C       C C C 
+3     C C C C     
+4 C C C       C C 
+5 C     C C C   C 
 6 C   C C   C   C 
 7 C C C     C C C 
 Count Colored: 42
@@ -2662,69 +2662,47 @@ Count Colored: 42
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
+0 C C C C   C C C 
+1 C     C   C   C 
+2 C     C   C C   
+3 C C   C C   C C 
+4   C C   C C   C 
+5 C   C C   C   C 
+6 C     C   C   C 
+7 C C C C   C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C   C C C 
+1 C     C   C   C 
+2 C C   C   C C   
+3   C   C C   C C 
+4   C C   C C   C 
+5 C   C C   C   C 
+6 C     C   C   C 
+7 C C C C   C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C     C C C 
+1 C   C C   C   C 
+2 C     C   C C   
+3 C C   C C   C C 
+4   C C   C C   C 
+5 C   C C   C   C 
+6 C     C   C   C 
+7 C C C C   C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
 0 C C C     C C C 
 1 C   C     C   C 
 2 C   C C   C C   
 3 C C   C C   C C 
 4   C C   C C   C 
 5 C   C C   C   C 
-6 C C   C   C   C 
-7   C C C   C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C C   C C C 
-1 C     C   C   C 
-2 C     C   C C   
-3 C C   C C   C C 
-4   C C   C C   C 
-5 C   C C   C   C 
-6 C C   C   C   C 
-7   C C C   C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0   C C C   C C C 
-1 C C   C   C   C 
-2 C     C   C C   
-3 C C   C C   C C 
-4   C C   C C   C 
-5 C   C C   C   C 
-6 C C   C   C   C 
-7   C C C   C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C C   C C C 
-1 C     C   C   C 
-2 C C   C   C C   
-3   C   C C   C C 
-4   C C   C C   C 
-5 C   C C   C   C 
-6 C C   C   C   C 
-7   C C C   C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C     C C C 
-1 C   C C   C   C 
-2 C     C   C C   
-3 C C   C C   C C 
-4   C C   C C   C 
-5 C   C C   C   C 
-6 C C   C   C   C 
-7   C C C   C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C     C C C 
-1 C   C C   C   C 
-2 C C   C   C C   
-3   C   C C   C C 
-4   C C   C C   C 
-5 C   C C   C   C 
-6 C C   C   C   C 
-7   C C C   C C C 
+6 C     C   C   C 
+7 C C C C   C C C 
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
@@ -2739,25 +2717,14 @@ Count Colored: 42
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
-0 C C C C   C C C 
-1 C     C   C   C 
+0 C C C     C C C 
+1 C   C C   C   C 
 2 C C   C   C C   
 3   C   C C   C C 
 4   C C   C C   C 
 5 C   C C   C   C 
-6 C     C   C   C 
-7 C C C C   C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C C   C C C 
-1 C     C   C   C 
-2 C     C   C C   
-3 C C   C C   C C 
-4   C C   C C   C 
-5 C   C C   C   C 
-6 C     C   C   C 
-7 C C C C   C C C 
+6 C C   C   C   C 
+7   C C C   C C C 
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
@@ -2778,8 +2745,19 @@ Count Colored: 42
 3 C C   C C   C C 
 4   C C   C C   C 
 5 C   C C   C   C 
-6 C     C   C   C 
-7 C C C C   C C C 
+6 C C   C   C   C 
+7   C C C   C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C   C C C 
+1 C     C   C   C 
+2 C C   C   C C   
+3   C   C C   C C 
+4   C C   C C   C 
+5 C   C C   C   C 
+6 C C   C   C   C 
+7   C C C   C C C 
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
@@ -2789,8 +2767,52 @@ Count Colored: 42
 3 C C   C C   C C 
 4   C C   C C   C 
 5 C   C C   C   C 
-6 C     C   C   C 
-7 C C C C   C C C 
+6 C C   C   C   C 
+7   C C C   C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0   C C C   C C C 
+1 C C   C   C   C 
+2 C     C   C C   
+3 C C   C C   C C 
+4   C C   C C   C 
+5 C   C C   C   C 
+6 C C   C   C   C 
+7   C C C   C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C   C C C 
+1 C     C   C   C 
+2 C     C   C C   
+3 C C   C C   C C 
+4   C C   C C   C 
+5 C   C C   C   C 
+6 C C   C   C   C 
+7   C C C   C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C   C C C 
+1 C     C   C   C 
+2 C C   C C C   C 
+3   C C       C C 
+4     C C C C     
+5 C C       C C C 
+6 C   C C C     C 
+7 C C C   C C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C     C C C 
+1 C   C C   C   C 
+2 C C   C C C   C 
+3   C C       C C 
+4     C C C C     
+5 C C       C C C 
+6 C   C C C     C 
+7 C C C   C C C C 
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
@@ -2820,28 +2842,6 @@ Count Colored: 42
 1 C   C C   C   C 
 2 C     C C C   C 
 3 C C C       C C 
-4     C C C C     
-5 C C       C C C 
-6 C   C C C     C 
-7 C C C   C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C C   C C C 
-1 C     C   C   C 
-2 C C   C C C   C 
-3   C C       C C 
-4     C C C C     
-5 C C       C C C 
-6 C   C C C     C 
-7 C C C   C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C     C C C 
-1 C   C C   C   C 
-2 C C   C C C   C 
-3   C C       C C 
 4     C C C C     
 5 C C       C C C 
 6 C   C C C     C 
@@ -2871,8 +2871,8 @@ Count Colored: 42
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
-0 C C C     C C C 
-1 C   C C   C   C 
+0 C C C C   C C C 
+1 C     C   C   C 
 2 C C   C   C C   
 3   C   C C   C C 
 4 C C     C C   C 
@@ -2882,8 +2882,19 @@ Count Colored: 42
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
-0 C C C     C C C 
-1 C   C C   C   C 
+0 C C C C C   C C 
+1 C       C C   C 
+2 C C C C   C C C 
+3       C C       
+4 C C C   C C C   
+5 C   C       C C 
+6 C     C C C   C 
+7 C C C C   C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C   C C C 
+1 C     C   C   C 
 2 C C   C   C C   
 3   C   C C   C C 
 4 C C     C C   C 
@@ -2893,8 +2904,8 @@ Count Colored: 42
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
-0 C C C C   C C C 
-1 C     C   C   C 
+0 C C C     C C C 
+1 C   C C   C   C 
 2 C C   C   C C   
 3   C   C C   C C 
 4 C C     C C   C 
@@ -2904,8 +2915,8 @@ Count Colored: 42
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
-0 C C C C   C C C 
-1 C     C   C   C 
+0 C C C     C C C 
+1 C   C C   C   C 
 2 C C   C   C C   
 3   C   C C   C C 
 4 C C     C C   C 
@@ -2923,6 +2934,17 @@ Count Colored: 42
 5 C   C         C 
 6 C     C C C   C 
 7 C C C C   C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C C C C   
+1 C           C C 
+2 C C   C C C   C 
+3   C   C   C C C 
+4 C C   C C       
+5 C   C   C C C C 
+6 C   C C       C 
+7 C C   C C C C C 
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
@@ -2954,28 +2976,6 @@ Count Colored: 42
 3       C C       
 4 C C C   C C C   
 5 C   C       C C 
-6 C     C C C   C 
-7 C C C C   C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C C C C C   
-1 C           C C 
-2 C C   C C C   C 
-3   C   C   C C C 
-4 C C   C C       
-5 C   C   C C C C 
-6 C   C C       C 
-7 C C   C C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C C C   C C 
-1 C       C C   C 
-2 C C C C   C C C 
-3       C C       
-4 C C C   C C C   
-5 C   C       C C 
 6 C C   C C C   C 
 7   C C C   C C C 
 Count Colored: 42
@@ -3009,7 +3009,29 @@ Count Colored: 42
 3 C C   C C   C   
 4 C   C C     C C 
 5 C   C   C C   C 
-6 C   C   C   C C 
+6 C   C   C     C 
+7 C C C   C C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C   C C C C 
+1 C   C   C     C 
+2   C C   C   C C 
+3 C C   C C   C   
+4 C   C C     C C 
+5 C   C   C C   C 
+6 C   C   C     C 
+7 C C C   C C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C   C C C C C 
+1 C   C C       C 
+2 C C C   C C C C 
+3       C C       
+4   C C C   C C C 
+5 C C       C   C 
+6 C   C C C   C C 
 7 C C C   C C C   
 Count Colored: 42
 --------------------
@@ -3025,19 +3047,19 @@ Count Colored: 42
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
-0 C C C     C C C 
-1 C   C   C C   C 
+0 C C C   C C C C 
+1 C   C   C     C 
 2   C C   C   C C 
 3 C C   C C   C   
 4 C   C C     C C 
 5 C   C   C C   C 
-6 C   C   C     C 
-7 C C C   C C C C 
+6 C   C   C   C C 
+7 C C C   C C C   
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
-0 C C C   C C C C 
-1 C   C   C     C 
+0 C C C     C C C 
+1 C   C   C C   C 
 2   C C   C   C C 
 3 C C   C C   C   
 4 C   C C     C C 
@@ -3055,6 +3077,17 @@ Count Colored: 42
 5 C         C   C 
 6 C   C C C     C 
 7 C C C   C C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C   C C C C C 
+1 C   C C       C 
+2 C C C   C C C C 
+3       C C       
+4 C C C C   C C C 
+5 C         C   C 
+6 C   C C C   C C 
+7 C C C   C C C   
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
@@ -3080,50 +3113,6 @@ Count Colored: 42
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
-0 C C C   C C C C 
-1 C   C   C     C 
-2   C C   C   C C 
-3 C C   C C   C   
-4 C   C C     C C 
-5 C   C   C C   C 
-6 C   C   C     C 
-7 C C C   C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C   C C C C C 
-1 C   C C       C 
-2 C C C   C C C C 
-3       C C       
-4 C C C C   C C C 
-5 C         C   C 
-6 C   C C C   C C 
-7 C C C   C C C   
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C   C C C C C 
-1 C   C C       C 
-2 C C C   C C C C 
-3       C C       
-4   C C C   C C C 
-5 C C       C   C 
-6 C   C C C   C C 
-7 C C C   C C C   
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C     C C C 
-1 C   C   C C   C 
-2 C   C C C   C C 
-3 C C       C C   
-4     C C C C     
-5 C C C       C C 
-6 C     C C C   C 
-7 C C C C   C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
 0 C C C     C C C 
 1 C   C   C C   C 
 2 C   C C C     C 
@@ -3135,8 +3124,8 @@ Count Colored: 42
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
-0 C C C   C C C C 
-1 C   C   C     C 
+0 C C C     C C C 
+1 C   C   C C   C 
 2 C   C C C   C C 
 3 C C       C C   
 4     C C C C     
@@ -3170,8 +3159,30 @@ Count Colored: 42
   0 1 2 3 4 5 6 7
 0 C C C   C C C C 
 1 C   C   C     C 
-2   C C   C     C 
-3 C C   C C   C C 
+2 C   C C C   C C 
+3 C C       C C   
+4     C C C C     
+5 C C C       C C 
+6 C     C C C   C 
+7 C C C C   C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C     C C C 
+1 C   C   C C   C 
+2   C C   C   C C 
+3 C C   C C   C   
+4 C   C C   C C   
+5 C   C   C C   C 
+6 C   C   C   C C 
+7 C C C   C C C   
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C   C C C C 
+1 C   C   C     C 
+2   C C   C   C C 
+3 C C   C C   C   
 4 C   C C   C C   
 5 C   C   C C   C 
 6 C   C   C   C C 
@@ -3181,8 +3192,41 @@ Count Colored: 42
   0 1 2 3 4 5 6 7
 0 C C C     C C C 
 1 C   C   C C   C 
-2   C C   C   C C 
-3 C C   C C   C   
+2   C C   C     C 
+3 C C   C C   C C 
+4 C   C C   C C   
+5 C   C   C C   C 
+6 C   C   C     C 
+7 C C C   C C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C     C C C 
+1 C   C   C C   C 
+2   C C   C     C 
+3 C C   C C   C C 
+4 C   C C   C C   
+5 C   C   C C   C 
+6 C   C   C   C C 
+7 C C C   C C C   
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C   C C C   
+1 C   C   C   C C 
+2   C C   C     C 
+3 C C   C C   C C 
+4 C   C C   C C   
+5 C   C   C C   C 
+6 C   C   C     C 
+7 C C C   C C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C   C C C   
+1 C   C   C   C C 
+2   C C   C     C 
+3 C C   C C   C C 
 4 C   C C   C C   
 5 C   C   C C   C 
 6 C   C   C   C C 
@@ -3201,21 +3245,10 @@ Count Colored: 42
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
-0 C C C     C C C 
-1 C   C   C C   C 
-2   C C   C     C 
-3 C C   C C   C C 
-4 C   C C   C C   
-5 C   C   C C   C 
-6 C   C   C     C 
-7 C C C   C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
 0 C C C   C C C C 
 1 C   C   C     C 
-2   C C   C   C C 
-3 C C   C C   C   
+2   C C   C     C 
+3 C C   C C   C C 
 4 C   C C   C C   
 5 C   C   C C   C 
 6 C   C   C   C C 
@@ -3234,14 +3267,14 @@ Count Colored: 42
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
-0 C C C   C C C   
-1 C   C   C   C C 
-2   C C   C     C 
-3 C C   C C   C C 
+0 C C C   C C C C 
+1 C   C   C     C 
+2   C C   C   C C 
+3 C C   C C   C   
 4 C   C C   C C   
 5 C   C   C C   C 
-6 C   C   C   C C 
-7 C C C   C C C   
+6 C   C   C     C 
+7 C C C   C C C C 
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
@@ -3256,89 +3289,12 @@ Count Colored: 42
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
-0 C C C   C C C   
-1 C   C   C   C C 
-2   C C   C     C 
-3 C C   C C   C C 
-4 C   C C   C C   
-5 C   C   C C   C 
-6 C   C   C     C 
-7 C C C   C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C     C C C 
-1 C   C   C C   C 
-2   C C   C     C 
-3 C C   C C   C C 
-4 C   C C   C C   
-5 C   C   C C   C 
-6 C   C   C   C C 
-7 C C C   C C C   
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
 0 C C C   C C C C 
 1 C   C   C     C 
 2   C C   C     C 
 3 C C   C C   C C 
 4 C   C C   C C   
 5 C   C   C C   C 
-6 C   C   C     C 
-7 C C C   C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C   C C C C 
-1 C   C   C     C 
-2   C C   C   C C 
-3 C C   C C   C   
-4 C   C C   C C   
-5 C   C   C C   C 
-6 C   C   C     C 
-7 C C C   C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C   C C C   
-1 C   C   C   C C 
-2 C   C   C C   C 
-3 C   C C     C C 
-4 C C   C C   C   
-5   C C   C   C C 
-6 C   C   C     C 
-7 C C C   C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C   C C C C 
-1 C   C   C     C 
-2 C   C   C C   C 
-3 C   C C     C C 
-4 C C   C C   C   
-5   C C   C   C C 
-6 C   C   C     C 
-7 C C C   C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C   C C C   
-1 C   C   C   C C 
-2 C   C   C C   C 
-3 C   C C   C C   
-4 C C   C C   C   
-5   C C   C   C C 
-6 C   C   C     C 
-7 C C C   C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C   C C C   
-1 C   C   C   C C 
-2 C   C   C C   C 
-3 C   C C   C C   
-4 C C   C C   C C 
-5   C C   C     C 
 6 C   C   C     C 
 7 C C C   C C C C 
 Count Colored: 42
@@ -3357,17 +3313,6 @@ Count Colored: 42
   0 1 2 3 4 5 6 7
 0 C C C   C C C C 
 1 C   C   C     C 
-2 C   C   C C   C 
-3 C   C C   C C   
-4 C C   C C   C C 
-5   C C   C     C 
-6 C   C   C     C 
-7 C C C   C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C   C C C   
-1 C   C   C   C C 
 2 C   C   C C   C 
 3 C   C C   C   C 
 4 C C   C C C   C 
@@ -3377,6 +3322,17 @@ Count Colored: 42
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
+0 C C C   C C C   
+1 C   C   C   C C 
+2 C   C   C C   C 
+3 C   C C   C C   
+4 C C   C C   C   
+5   C C   C   C C 
+6 C   C   C     C 
+7 C C C   C C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
 0 C C C   C C C C 
 1 C   C   C     C 
 2 C   C   C C   C 
@@ -3388,14 +3344,14 @@ Count Colored: 42
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
-0 C C C   C C C   
-1 C   C   C   C C 
+0 C C C   C C C C 
+1 C   C   C     C 
 2 C   C   C C   C 
 3 C   C C   C C   
-4 C C   C C   C   
-5   C C   C   C C 
-6 C   C   C C   C 
-7 C C C     C C C 
+4 C C   C C   C C 
+5   C C   C     C 
+6 C   C   C   C C 
+7 C C C   C C C   
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
@@ -3405,8 +3361,8 @@ Count Colored: 42
 3 C   C C     C C 
 4 C C   C C   C   
 5   C C   C   C C 
-6 C   C   C C   C 
-7 C C C     C C C 
+6 C   C   C     C 
+7 C C C   C C C C 
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
@@ -3416,41 +3372,8 @@ Count Colored: 42
 3 C   C C     C C 
 4 C C   C C   C   
 5   C C   C   C C 
-6 C   C   C C   C 
-7 C C C     C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C   C C C C 
-1 C   C   C     C 
-2 C   C   C C   C 
-3 C   C C   C C   
-4 C C   C C   C   
-5   C C   C   C C 
-6 C   C   C C   C 
-7 C C C     C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C   C C C   
-1 C   C   C   C C 
-2 C   C   C C   C 
-3 C   C C   C C   
-4 C C   C C   C C 
-5   C C   C     C 
-6 C   C   C C   C 
-7 C C C     C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C   C C C C 
-1 C   C   C     C 
-2 C   C   C C   C 
-3 C   C C   C C   
-4 C C   C C   C C 
-5   C C   C     C 
-6 C   C   C C   C 
-7 C C C     C C C 
+6 C   C   C     C 
+7 C C C   C C C C 
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
@@ -3470,25 +3393,14 @@ Count Colored: 42
 2 C   C   C C   C 
 3 C   C C   C C   
 4 C C   C C   C C 
-5   C C   C     C 
-6 C   C   C   C C 
-7 C C C   C C C   
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C   C C C C 
-1 C   C   C     C 
-2 C   C   C C   C 
-3 C   C C   C C   
-4 C C   C C   C C 
 5   C C   C C   C 
 6 C   C     C   C 
 7 C C C     C C C 
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
-0 C C C   C C C C 
-1 C   C   C     C 
+0 C C C   C C C   
+1 C   C   C   C C 
 2 C   C   C C   C 
 3 C   C C   C   C 
 4 C C   C C C   C 
@@ -3498,6 +3410,94 @@ Count Colored: 42
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
+0 C C C   C C C   
+1 C   C   C   C C 
+2 C   C   C C   C 
+3 C   C C   C C   
+4 C C   C C   C C 
+5   C C   C     C 
+6 C   C   C     C 
+7 C C C   C C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C   C C C C 
+1 C   C   C     C 
+2 C   C   C C   C 
+3 C   C C   C C   
+4 C C   C C   C C 
+5   C C   C     C 
+6 C   C   C     C 
+7 C C C   C C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C   C C C   
+1 C   C   C   C C 
+2 C   C   C C   C 
+3 C   C C     C C 
+4 C C   C C   C   
+5   C C   C   C C 
+6 C   C   C C   C 
+7 C C C     C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C   C C C C 
+1 C   C   C     C 
+2 C   C   C C   C 
+3 C   C C     C C 
+4 C C   C C   C   
+5   C C   C   C C 
+6 C   C   C C   C 
+7 C C C     C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C   C C C   
+1 C   C   C   C C 
+2 C   C   C C   C 
+3 C   C C   C C   
+4 C C   C C   C   
+5   C C   C   C C 
+6 C   C   C C   C 
+7 C C C     C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C   C C C C 
+1 C   C   C     C 
+2 C   C   C C   C 
+3 C   C C   C C   
+4 C C   C C   C   
+5   C C   C   C C 
+6 C   C   C C   C 
+7 C C C     C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C   C C C   
+1 C   C   C   C C 
+2 C   C   C C   C 
+3 C   C C   C C   
+4 C C   C C   C C 
+5   C C   C     C 
+6 C   C   C C   C 
+7 C C C     C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C   C C C C 
+1 C   C   C     C 
+2 C   C   C C   C 
+3 C   C C   C C   
+4 C C   C C   C C 
+5   C C   C     C 
+6 C   C   C C   C 
+7 C C C     C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
 0 C C C   C C C C 
 1 C   C   C     C 
 2 C   C C   C C C 
@@ -3524,17 +3524,6 @@ Count Colored: 42
 1 C   C   C     C 
 2 C   C C   C C C 
 3 C C   C   C     
-4   C   C   C C   
-5 C C   C C   C C 
-6 C   C   C     C 
-7 C C C   C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C   C C C C 
-1 C   C   C     C 
-2 C   C C   C C C 
-3 C C   C   C     
 4   C   C   C C C 
 5 C C   C C     C 
 6 C   C   C C   C 
@@ -3548,15 +3537,26 @@ Count Colored: 42
 3 C C   C   C     
 4   C   C   C C   
 5 C C   C C   C C 
+6 C   C   C     C 
+7 C C C   C C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C   C C C C 
+1 C   C   C     C 
+2 C   C C   C C C 
+3 C C   C   C     
+4   C   C   C C   
+5 C C   C C   C C 
 6 C   C   C C   C 
 7 C C C     C C C 
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
-0 C C C C   C C C 
-1 C     C   C   C 
-2 C C   C C   C C 
-3   C C   C   C   
+0 C C C     C C C 
+1 C   C C   C   C 
+2 C     C C   C C 
+3 C C C   C   C   
 4     C   C   C C 
 5 C C C   C C   C 
 6 C     C   C   C 
@@ -3575,41 +3575,8 @@ Count Colored: 42
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
-0 C C C     C C C 
-1 C   C   C C   C 
-2 C   C C C   C C 
-3 C C         C   
-4     C C C   C C 
-5 C C C   C C   C 
-6 C     C   C   C 
-7 C C C C   C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C   C C C C 
-1 C   C C       C 
-2 C C   C C   C C 
-3   C C   C   C   
-4     C   C   C C 
-5 C C C   C C   C 
-6 C     C   C   C 
-7 C C C C   C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C   C C C C 
-1 C   C   C     C 
-2 C   C C C   C C 
-3 C C         C   
-4     C C C   C C 
-5 C C C   C C   C 
-6 C     C   C   C 
-7 C C C C   C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0   C C C   C C C 
-1 C C   C   C   C 
+0 C C C C   C C C 
+1 C     C   C   C 
 2 C     C C   C C 
 3 C C C   C   C   
 4     C   C   C C 
@@ -3619,8 +3586,8 @@ Count Colored: 42
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
-0 C C C C   C C C 
-1 C     C   C   C 
+0 C C C   C C C C 
+1 C   C C       C 
 2 C     C C   C C 
 3 C C C   C   C   
 4     C   C   C C 
@@ -3641,8 +3608,8 @@ Count Colored: 42
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
-0 C C C     C C C 
-1 C   C C   C   C 
+0   C C C   C C C 
+1 C C   C   C   C 
 2 C     C C   C C 
 3 C C C   C   C   
 4     C   C   C C 
@@ -3652,10 +3619,32 @@ Count Colored: 42
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
+0 C C C     C C C 
+1 C   C   C C   C 
+2 C   C C C   C C 
+3 C C         C   
+4     C C C   C C 
+5 C C C   C C   C 
+6 C     C   C   C 
+7 C C C C   C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
 0 C C C   C C C C 
-1 C   C C       C 
-2 C     C C   C C 
-3 C C C   C   C   
+1 C   C   C     C 
+2 C   C C C   C C 
+3 C C         C   
+4     C C C   C C 
+5 C C C   C C   C 
+6 C     C   C   C 
+7 C C C C   C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C   C C C 
+1 C     C   C   C 
+2 C C   C C   C C 
+3   C C   C   C   
 4     C   C   C C 
 5 C C C   C C   C 
 6 C     C   C   C 
@@ -3674,58 +3663,14 @@ Count Colored: 42
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
-0 C C C     C C C 
-1 C   C   C C   C 
-2 C C   C C   C C 
-3   C   C   C C   
-4 C C   C   C     
-5 C   C C   C C C 
-6 C   C   C     C 
-7 C C C   C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C C   C C C 
-1 C       C C   C 
-2 C C   C C   C C 
-3   C   C   C C   
-4 C C   C   C     
-5 C   C C   C C C 
-6 C   C   C     C 
-7 C C C   C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C C   C C C 
-1 C     C   C   C 
-2 C C   C C C   C 
-3   C         C C 
-4 C C   C C C     
-5 C   C C   C C C 
-6 C   C   C     C 
-7 C C C   C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C     C C C 
-1 C   C C   C   C 
-2 C C   C C C   C 
-3   C         C C 
-4 C C   C C C     
-5 C   C C   C C C 
-6 C   C   C     C 
-7 C C C   C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
 0 C C C   C C C C 
-1 C   C   C     C 
+1 C   C C       C 
 2 C C   C C   C C 
-3   C   C   C C   
-4 C C   C   C     
-5 C   C C   C C C 
-6 C   C   C     C 
-7 C C C   C C C C 
+3   C C   C   C   
+4     C   C   C C 
+5 C C C   C C   C 
+6 C     C   C   C 
+7 C C C C   C C C 
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
@@ -3733,50 +3678,6 @@ Count Colored: 42
 1 C   C   C C   C 
 2 C C   C C     C 
 3   C   C   C C C 
-4 C C   C   C     
-5 C   C C   C C C 
-6 C   C   C     C 
-7 C C C   C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C C   C C C 
-1 C       C C   C 
-2 C C   C C     C 
-3   C   C   C C C 
-4 C C   C   C     
-5 C   C C   C C C 
-6 C   C   C     C 
-7 C C C   C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C   C C C C 
-1 C   C   C     C 
-2 C C   C C     C 
-3   C   C   C C C 
-4 C C   C   C     
-5 C   C C   C C C 
-6 C   C   C     C 
-7 C C C   C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C C   C C C 
-1 C     C C C   C 
-2 C C C       C C 
-3     C C   C C   
-4 C C   C   C     
-5 C   C C   C C C 
-6 C   C   C     C 
-7 C C C   C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C C   C C C 
-1 C     C C C   C 
-2 C C C         C 
-3     C C   C C C 
 4 C C   C   C     
 5 C   C C   C C C 
 6 C   C   C     C 
@@ -3797,23 +3698,100 @@ Count Colored: 42
   0 1 2 3 4 5 6 7
 0 C C C C   C C C 
 1 C     C   C   C 
-2 C C C   C C   C 
-3     C   C   C C 
-4 C C C   C   C   
-5 C     C C   C C 
-6 C   C C   C   C 
-7 C C C     C C C 
+2 C C   C C C   C 
+3   C         C C 
+4 C C   C C C     
+5 C   C C   C C C 
+6 C   C   C     C 
+7 C C C   C C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C     C C C 
+1 C   C C   C   C 
+2 C C   C C C   C 
+3   C         C C 
+4 C C   C C C     
+5 C   C C   C C C 
+6 C   C   C     C 
+7 C C C   C C C C 
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
 0 C C C C   C C C 
-1 C     C   C   C 
-2 C C C   C C   C 
-3     C   C   C C 
-4   C C   C   C   
-5 C C   C C   C C 
-6 C   C C   C   C 
-7 C C C     C C C 
+1 C       C C   C 
+2 C C   C C     C 
+3   C   C   C C C 
+4 C C   C   C     
+5 C   C C   C C C 
+6 C   C   C     C 
+7 C C C   C C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C   C C C C 
+1 C   C   C     C 
+2 C C   C C     C 
+3   C   C   C C C 
+4 C C   C   C     
+5 C   C C   C C C 
+6 C   C   C     C 
+7 C C C   C C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C   C C C 
+1 C     C C C   C 
+2 C C C         C 
+3     C C   C C C 
+4 C C   C   C     
+5 C   C C   C C C 
+6 C   C   C     C 
+7 C C C   C C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C     C C C 
+1 C   C   C C   C 
+2 C C   C C   C C 
+3   C   C   C C   
+4 C C   C   C     
+5 C   C C   C C C 
+6 C   C   C     C 
+7 C C C   C C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C   C C C C 
+1 C   C   C     C 
+2 C C   C C   C C 
+3   C   C   C C   
+4 C C   C   C     
+5 C   C C   C C C 
+6 C   C   C     C 
+7 C C C   C C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C   C C C 
+1 C       C C   C 
+2 C C   C C   C C 
+3   C   C   C C   
+4 C C   C   C     
+5 C   C C   C C C 
+6 C   C   C     C 
+7 C C C   C C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C   C C C 
+1 C     C C C   C 
+2 C C C       C C 
+3     C C   C C   
+4 C C   C   C     
+5 C   C C   C C C 
+6 C   C   C     C 
+7 C C C   C C C C 
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
@@ -3834,6 +3812,17 @@ Count Colored: 42
 3     C   C   C C 
 4   C C   C   C   
 5 C C   C C   C C 
+6 C   C C   C   C 
+7 C C C     C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C   C C C 
+1 C     C   C   C 
+2 C C C   C C   C 
+3     C   C   C C 
+4   C C   C   C   
+5 C C   C C   C C 
 6 C     C   C   C 
 7 C C C C   C C C 
 Count Colored: 42
@@ -3852,43 +3841,10 @@ Count Colored: 42
   0 1 2 3 4 5 6 7
 0 C C C C   C C C 
 1 C     C   C   C 
-2 C   C C   C   C 
-3 C   C   C C   C 
-4 C   C C C   C C 
-5 C         C C   
-6 C   C C C     C 
-7 C C C   C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0   C C C   C C C 
-1 C C   C   C   C 
-2 C   C C   C   C 
-3 C   C   C C   C 
-4 C   C C C   C C 
-5 C         C C   
-6 C   C C C     C 
-7 C C C   C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0   C C C   C C C 
-1 C C   C   C   C 
-2 C   C C   C   C 
-3 C C     C C   C 
-4   C   C C   C C 
-5 C C   C   C C   
-6 C   C C   C   C 
-7 C C C     C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C C   C C C 
-1 C     C   C   C 
-2 C   C C   C   C 
-3 C C     C C   C 
-4   C   C C   C C 
-5 C C   C   C C   
+2 C C C   C C   C 
+3     C   C   C C 
+4 C C C   C   C   
+5 C     C C   C C 
 6 C   C C   C   C 
 7 C C C     C C C 
 Count Colored: 42
@@ -3900,19 +3856,19 @@ Count Colored: 42
 3   C C   C C   C 
 4   C   C C   C C 
 5 C C   C   C C   
-6 C   C C   C   C 
-7 C C C     C C C 
+6 C     C   C   C 
+7 C C C C   C C C 
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
-0 C C C C   C C C 
-1 C     C   C   C 
+0   C C C   C C C 
+1 C C   C   C   C 
 2 C   C C   C   C 
-3   C C   C C   C 
-4   C   C C   C C 
-5 C C   C   C C   
-6 C   C C   C   C 
-7 C C C     C C C 
+3 C   C   C C   C 
+4 C   C C C   C C 
+5 C         C C   
+6 C   C C C     C 
+7 C C C   C C C C 
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
@@ -3922,8 +3878,107 @@ Count Colored: 42
 3   C C   C C   C 
 4 C C   C C   C C 
 5 C     C   C C   
+6 C     C   C   C 
+7 C C C C   C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C   C C C 
+1 C     C   C   C 
+2 C   C C   C   C 
+3   C C   C C   C 
+4   C   C C   C C 
+5 C C   C   C C   
+6 C     C   C   C 
+7 C C C C   C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0   C C C   C C C 
+1 C C   C   C   C 
+2 C   C C   C   C 
+3   C C   C C   C 
+4 C C   C C   C C 
+5 C     C   C C   
+6 C C   C   C   C 
+7   C C C   C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C   C C C 
+1 C     C   C   C 
+2 C   C C   C   C 
+3   C C   C C   C 
+4 C C   C C   C C 
+5 C     C   C C   
+6 C C   C   C   C 
+7   C C C   C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C   C C C 
+1 C     C   C   C 
+2 C   C C   C   C 
+3   C C   C C   C 
+4 C C   C C   C C 
+5 C     C   C C   
+6 C     C   C   C 
+7 C C C C   C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0   C C C   C C C 
+1 C C   C   C   C 
+2 C   C C   C   C 
+3   C C   C C   C 
+4   C   C C   C C 
+5 C C   C   C C   
 6 C   C C   C   C 
 7 C C C     C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C   C C C 
+1 C     C   C   C 
+2 C   C C   C   C 
+3   C C   C C   C 
+4   C   C C   C C 
+5 C C   C   C C   
+6 C   C C   C   C 
+7 C C C     C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0   C C C   C C C 
+1 C C   C   C   C 
+2 C   C C   C   C 
+3 C C     C C   C 
+4   C   C C   C C 
+5 C C   C   C C   
+6 C     C   C   C 
+7 C C C C   C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C   C C C 
+1 C     C   C   C 
+2 C   C C   C   C 
+3 C C     C C   C 
+4   C   C C   C C 
+5 C C   C   C C   
+6 C     C   C   C 
+7 C C C C   C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C   C C C 
+1 C     C   C   C 
+2 C   C C   C   C 
+3 C   C   C C   C 
+4 C   C C C   C C 
+5 C         C C   
+6 C   C C C     C 
+7 C C C   C C C C 
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
@@ -3949,6 +4004,17 @@ Count Colored: 42
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
+0   C C C   C C C 
+1 C C   C   C   C 
+2 C   C C   C   C 
+3   C C   C C   C 
+4 C C   C C   C C 
+5 C     C   C C   
+6 C   C C   C   C 
+7 C C C     C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
 0 C C C C   C C C 
 1 C     C   C   C 
 2 C   C C   C   C 
@@ -3963,33 +4029,11 @@ Count Colored: 42
 0   C C C   C C C 
 1 C C   C   C   C 
 2 C   C C   C   C 
-3   C C   C C   C 
-4 C C   C C   C C 
-5 C     C   C C   
-6 C C   C   C   C 
-7   C C C   C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C C   C C C 
-1 C     C   C   C 
-2 C   C C   C   C 
-3   C C   C C   C 
-4 C C   C C   C C 
-5 C     C   C C   
-6 C C   C   C   C 
-7   C C C   C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0   C C C   C C C 
-1 C C   C   C   C 
-2 C   C C   C   C 
 3 C C     C C   C 
 4   C   C C   C C 
 5 C C   C   C C   
-6 C     C   C   C 
-7 C C C C   C C C 
+6 C   C C   C   C 
+7 C C C     C C C 
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
@@ -3999,52 +4043,8 @@ Count Colored: 42
 3 C C     C C   C 
 4   C   C C   C C 
 5 C C   C   C C   
-6 C     C   C   C 
-7 C C C C   C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0   C C C   C C C 
-1 C C   C   C   C 
-2 C   C C   C   C 
-3   C C   C C   C 
-4   C   C C   C C 
-5 C C   C   C C   
-6 C     C   C   C 
-7 C C C C   C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C C   C C C 
-1 C     C   C   C 
-2 C   C C   C   C 
-3   C C   C C   C 
-4   C   C C   C C 
-5 C C   C   C C   
-6 C     C   C   C 
-7 C C C C   C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0   C C C   C C C 
-1 C C   C   C   C 
-2 C   C C   C   C 
-3   C C   C C   C 
-4 C C   C C   C C 
-5 C     C   C C   
-6 C     C   C   C 
-7 C C C C   C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C C   C C C 
-1 C     C   C   C 
-2 C   C C   C   C 
-3   C C   C C   C 
-4 C C   C C   C C 
-5 C     C   C C   
-6 C     C   C   C 
-7 C C C C   C C C 
+6 C   C C   C   C 
+7 C C C     C C C 
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
@@ -4063,160 +4063,6 @@ Count Colored: 42
 1 C     C C   C C 
 2 C C C   C C   C 
 3     C C   C C C 
-4       C C       
-5 C C C   C C C C 
-6 C   C C       C 
-7 C C   C C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C C   C C C 
-1 C     C C     C 
-2 C C     C C   C 
-3   C C C   C C C 
-4       C C       
-5 C C C   C C C C 
-6 C   C C       C 
-7 C C   C C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C     C C C 
-1 C   C C C     C 
-2 C C     C C   C 
-3   C C C   C C C 
-4       C C       
-5 C C C   C C C C 
-6 C   C C       C 
-7 C C   C C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C   C C C C 
-1 C   C C C     C 
-2 C C       C   C 
-3   C C C   C C C 
-4       C C       
-5 C C C   C C C C 
-6 C   C C       C 
-7 C C   C C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C   C C C   
-1 C   C C C   C C 
-2 C C       C   C 
-3   C C C   C C C 
-4       C C       
-5 C C C   C C C C 
-6 C   C C       C 
-7 C C   C C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C     C C   
-1 C   C C C   C C 
-2 C C     C C   C 
-3   C C C   C C C 
-4       C C       
-5 C C C   C C C C 
-6 C   C C       C 
-7 C C   C C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0   C C C   C C C 
-1 C C   C C     C 
-2 C       C C   C 
-3 C C C C   C C C 
-4       C C       
-5 C C C   C C C C 
-6 C   C C       C 
-7 C C   C C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C     C C C 
-1 C   C C C     C 
-2 C       C C   C 
-3 C C C C   C C C 
-4       C C       
-5 C C C   C C C C 
-6 C   C C       C 
-7 C C   C C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C   C C C C 
-1 C   C C C     C 
-2 C         C   C 
-3 C C C C   C C C 
-4       C C       
-5 C C C   C C C C 
-6 C   C C       C 
-7 C C   C C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C   C C C   
-1 C   C C C   C C 
-2 C         C   C 
-3 C C C C   C C C 
-4       C C       
-5 C C C   C C C C 
-6 C   C C       C 
-7 C C   C C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C C   C C   
-1 C     C C   C C 
-2 C C     C C   C 
-3   C C C   C C C 
-4       C C       
-5 C C C   C C C C 
-6 C   C C       C 
-7 C C   C C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0   C C C   C C   
-1 C C   C C   C C 
-2 C       C C   C 
-3 C C C C   C C C 
-4       C C       
-5 C C C   C C C C 
-6 C   C C       C 
-7 C C   C C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C C   C C C 
-1 C     C C     C 
-2 C       C C   C 
-3 C C C C   C C C 
-4       C C       
-5 C C C   C C C C 
-6 C   C C       C 
-7 C C   C C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C C   C C   
-1 C     C C   C C 
-2 C       C C   C 
-3 C C C C   C C C 
-4       C C       
-5 C C C   C C C C 
-6 C   C C       C 
-7 C C   C C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C     C C   
-1 C   C C C   C C 
-2 C       C C   C 
-3 C C C C   C C C 
 4       C C       
 5 C C C   C C C C 
 6 C   C C       C 
@@ -4246,25 +4092,157 @@ Count Colored: 42
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
-0 C C C C C   C C 
-1 C       C C   C 
-2 C C C C   C C C 
-3       C C       
-4 C C C   C C C C 
-5 C   C C       C 
-6 C C   C C C   C 
-7   C C     C C C 
+0 C C C C   C C C 
+1 C     C C     C 
+2 C C     C C   C 
+3   C C C   C C C 
+4       C C       
+5 C C C   C C C C 
+6 C   C C       C 
+7 C C   C C C C C 
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
-0 C C C C C   C C 
-1 C       C C   C 
-2 C C C C   C C C 
-3       C C       
-4 C C C   C C C C 
-5 C   C C       C 
-6 C C   C C   C C 
-7   C C   C C C   
+0 C C C     C C C 
+1 C   C C C     C 
+2 C C     C C   C 
+3   C C C   C C C 
+4       C C       
+5 C C C   C C C C 
+6 C   C C       C 
+7 C C   C C C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C   C C C C 
+1 C   C C C     C 
+2 C C       C   C 
+3   C C C   C C C 
+4       C C       
+5 C C C   C C C C 
+6 C   C C       C 
+7 C C   C C C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C   C C C   
+1 C   C C C   C C 
+2 C C       C   C 
+3   C C C   C C C 
+4       C C       
+5 C C C   C C C C 
+6 C   C C       C 
+7 C C   C C C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0   C C C   C C C 
+1 C C   C C     C 
+2 C       C C   C 
+3 C C C C   C C C 
+4       C C       
+5 C C C   C C C C 
+6 C   C C       C 
+7 C C   C C C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C   C C C 
+1 C     C C     C 
+2 C       C C   C 
+3 C C C C   C C C 
+4       C C       
+5 C C C   C C C C 
+6 C   C C       C 
+7 C C   C C C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C     C C C 
+1 C   C C C     C 
+2 C       C C   C 
+3 C C C C   C C C 
+4       C C       
+5 C C C   C C C C 
+6 C   C C       C 
+7 C C   C C C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C   C C C C 
+1 C   C C C     C 
+2 C         C   C 
+3 C C C C   C C C 
+4       C C       
+5 C C C   C C C C 
+6 C   C C       C 
+7 C C   C C C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C   C C C   
+1 C   C C C   C C 
+2 C         C   C 
+3 C C C C   C C C 
+4       C C       
+5 C C C   C C C C 
+6 C   C C       C 
+7 C C   C C C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C     C C   
+1 C   C C C   C C 
+2 C C     C C   C 
+3   C C C   C C C 
+4       C C       
+5 C C C   C C C C 
+6 C   C C       C 
+7 C C   C C C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0   C C C   C C   
+1 C C   C C   C C 
+2 C       C C   C 
+3 C C C C   C C C 
+4       C C       
+5 C C C   C C C C 
+6 C   C C       C 
+7 C C   C C C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C   C C   
+1 C     C C   C C 
+2 C       C C   C 
+3 C C C C   C C C 
+4       C C       
+5 C C C   C C C C 
+6 C   C C       C 
+7 C C   C C C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C   C C   
+1 C     C C   C C 
+2 C C     C C   C 
+3   C C C   C C C 
+4       C C       
+5 C C C   C C C C 
+6 C   C C       C 
+7 C C   C C C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C     C C   
+1 C   C C C   C C 
+2 C       C C   C 
+3 C C C C   C C C 
+4       C C       
+5 C C C   C C C C 
+6 C   C C       C 
+7 C C   C C C C C 
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
@@ -4283,30 +4261,8 @@ Count Colored: 42
 1 C       C C   C 
 2 C C C C   C C C 
 3       C C       
-4 C C C   C C C   
-5 C   C C     C C 
-6 C C   C C C   C 
-7   C C     C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C C C   C C 
-1 C       C C   C 
-2 C C C C   C C C 
-3       C C       
 4 C C C   C C C C 
 5 C   C C       C 
-6 C C   C C     C 
-7   C C   C C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C C C   C C 
-1 C       C C   C 
-2 C C C C   C C C 
-3       C C       
-4 C C C   C C     
-5 C   C C   C C C 
 6 C C   C C     C 
 7   C C   C C C C 
 Count Colored: 42
@@ -4338,10 +4294,65 @@ Count Colored: 42
 1 C       C C   C 
 2 C C C C   C C C 
 3       C C       
+4 C C C   C C C C 
+5 C   C C       C 
+6 C     C C C   C 
+7 C C C     C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C C   C C 
+1 C       C C   C 
+2 C C C C   C C C 
+3       C C       
 4 C C C   C C C   
 5 C   C C     C C 
 6 C     C C     C 
 7 C C C   C C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C C   C C 
+1 C       C C   C 
+2 C C C C   C C C 
+3       C C       
+4 C C C   C C C C 
+5 C   C C       C 
+6 C C   C C   C C 
+7   C C   C C C   
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C C   C C 
+1 C       C C   C 
+2 C C C C   C C C 
+3       C C       
+4 C C C   C C C   
+5 C   C C     C C 
+6 C C   C C C   C 
+7   C C     C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C C   C C 
+1 C       C C   C 
+2 C C C C   C C C 
+3       C C       
+4 C C C   C C     
+5 C   C C   C C C 
+6 C C   C C     C 
+7   C C   C C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C C   C C 
+1 C       C C   C 
+2 C C C C   C C C 
+3       C C       
+4 C C C   C C C C 
+5 C   C C       C 
+6 C C   C C C   C 
+7   C C     C C C 
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
@@ -4364,17 +4375,6 @@ Count Colored: 42
 5 C   C C       C 
 6 C     C C   C C 
 7 C C C   C C C   
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C C C   C C 
-1 C       C C   C 
-2 C C C C   C C C 
-3       C C       
-4 C C C   C C C C 
-5 C   C C       C 
-6 C     C C C   C 
-7 C C C     C C C 
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
@@ -4428,8 +4428,52 @@ Count Colored: 42
 3       C C       
 4 C C C C   C C C 
 5 C       C C   C 
+6 C   C C C     C 
+7 C C C     C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C   C C C C C 
+1 C   C C       C 
+2 C C C   C C C C 
+3       C C       
+4 C C C C   C C C 
+5 C       C C   C 
+6 C     C C   C C 
+7 C C C C   C C   
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C   C C C C C 
+1 C   C C       C 
+2 C C C   C C C C 
+3       C C       
+4 C C C C   C C C 
+5 C       C C   C 
 6 C     C C     C 
 7 C C C C   C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C   C C C C C 
+1 C   C C       C 
+2 C C C   C C C C 
+3       C C       
+4   C C C   C C C 
+5 C C     C C   C 
+6 C   C C C     C 
+7 C C C     C C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C   C C C C C 
+1 C   C C       C 
+2 C C C   C C C C 
+3       C C       
+4   C C C   C C C 
+5 C C     C C   C 
+6 C     C C   C C 
+7 C C C C   C C   
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
@@ -4450,17 +4494,6 @@ Count Colored: 42
 3       C C       
 4   C C C   C C C 
 5 C C     C C   C 
-6 C   C C C     C 
-7 C C C     C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C   C C C C C 
-1 C   C C       C 
-2 C C C   C C C C 
-3       C C       
-4   C C C   C C C 
-5 C C     C C   C 
 6 C     C C     C 
 7 C C C C   C C C 
 Count Colored: 42
@@ -4472,8 +4505,8 @@ Count Colored: 42
 3       C C       
 4 C C C C   C C C 
 5 C       C C   C 
-6 C   C C C     C 
-7 C C C     C C C 
+6 C   C C C   C C 
+7 C C C     C C   
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
@@ -4483,8 +4516,8 @@ Count Colored: 42
 3       C C       
 4     C C   C C C 
 5 C C C   C C   C 
-6 C     C C   C C 
-7 C C C C   C C   
+6 C     C C     C 
+7 C C C C   C C C 
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
@@ -4505,28 +4538,6 @@ Count Colored: 42
 3       C C       
 4     C C   C C C 
 5 C C C   C C   C 
-6 C     C C     C 
-7 C C C C   C C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C   C C C C C 
-1 C   C C       C 
-2 C C C   C C C C 
-3       C C       
-4   C C C   C C C 
-5 C C     C C   C 
-6 C     C C   C C 
-7 C C C C   C C   
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C   C C C C C 
-1 C   C C       C 
-2 C C C   C C C C 
-3       C C       
-4 C C C C   C C C 
-5 C       C C   C 
 6 C     C C   C C 
 7 C C C C   C C   
 Count Colored: 42
@@ -4540,28 +4551,6 @@ Count Colored: 42
 5 C C     C C   C 
 6 C   C C C   C C 
 7 C C C     C C   
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C   C C C C C 
-1 C   C C       C 
-2 C C C   C C C C 
-3       C C       
-4 C C C C   C C C 
-5 C       C C   C 
-6 C   C C C   C C 
-7 C C C     C C   
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C C C C C C 
-1 C             C 
-2 C   C C C   C C 
-3 C C C   C   C   
-4       C C   C C 
-5 C C C C   C   C 
-6 C       C C   C 
-7 C C C C C   C C 
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
@@ -4571,61 +4560,6 @@ Count Colored: 42
 3 C C C   C   C   
 4       C C   C C 
 5 C C C C   C   C 
-6 C       C C   C 
-7 C C C C C   C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C   C C C   
-1 C     C C   C C 
-2 C   C C       C 
-3 C C C   C C C C 
-4       C C       
-5 C C C C   C C C 
-6 C       C C   C 
-7 C C C C C   C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C   C C C C 
-1 C     C C     C 
-2 C   C C       C 
-3 C C C   C C C C 
-4       C C       
-5 C C C C   C C C 
-6 C       C C   C 
-7 C C C C C   C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C     C C C 
-1 C     C C C   C 
-2 C   C C       C 
-3 C C C   C C C C 
-4       C C       
-5 C C C C   C C C 
-6 C       C C   C 
-7 C C C C C   C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0 C C C C   C C C 
-1 C     C C C   C 
-2 C   C         C 
-3 C C C   C C C C 
-4       C C       
-5 C C C C   C C C 
-6 C       C C   C 
-7 C C C C C   C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0   C C C   C C C 
-1 C C   C C C   C 
-2 C   C         C 
-3 C C C   C C C C 
-4       C C       
-5 C C C C   C C C 
 6 C       C C   C 
 7 C C C C C   C C 
 Count Colored: 42
@@ -4686,10 +4620,10 @@ Count Colored: 42
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
-0   C C     C C C 
-1 C C   C C C   C 
-2 C   C C       C 
-3 C C C   C C C C 
+0   C C   C C C C 
+1 C C   C C     C 
+2 C   C C     C C 
+3 C C C   C C C   
 4       C C       
 5 C C C C   C C C 
 6 C       C C   C 
@@ -4708,9 +4642,86 @@ Count Colored: 42
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
+0 C C C   C C C C 
+1 C     C C     C 
+2 C   C C       C 
+3 C C C   C C C C 
+4       C C       
+5 C C C C   C C C 
+6 C       C C   C 
+7 C C C C C   C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C     C C C 
+1 C     C C C   C 
+2 C   C C       C 
+3 C C C   C C C C 
+4       C C       
+5 C C C C   C C C 
+6 C       C C   C 
+7 C C C C C   C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C C   C C C 
+1 C     C C C   C 
+2 C   C         C 
+3 C C C   C C C C 
+4       C C       
+5 C C C C   C C C 
+6 C       C C   C 
+7 C C C C C   C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0   C C   C C C C 
+1 C C   C C     C 
+2 C   C C   C C C 
+3 C C C   C C     
+4       C C       
+5 C C C C   C C C 
+6 C       C C   C 
+7 C C C C C   C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0 C C C   C C C   
+1 C     C C   C C 
+2 C   C C       C 
+3 C C C   C C C C 
+4       C C       
+5 C C C C   C C C 
+6 C       C C   C 
+7 C C C C C   C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0   C C     C C C 
+1 C C   C C C   C 
+2 C   C C       C 
+3 C C C   C C C C 
+4       C C       
+5 C C C C   C C C 
+6 C       C C   C 
+7 C C C C C   C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
 0   C C   C C C C 
 1 C C   C C     C 
 2 C   C C       C 
+3 C C C   C C C C 
+4       C C       
+5 C C C C   C C C 
+6 C       C C   C 
+7 C C C C C   C C 
+Count Colored: 42
+--------------------
+  0 1 2 3 4 5 6 7
+0   C C C   C C C 
+1 C C   C C C   C 
+2 C   C         C 
 3 C C C   C C C C 
 4       C C       
 5 C C C C   C C C 
@@ -4730,23 +4741,12 @@ Count Colored: 42
 Count Colored: 42
 --------------------
   0 1 2 3 4 5 6 7
-0   C C   C C C C 
-1 C C   C C     C 
-2 C   C C   C C C 
-3 C C C   C C     
-4       C C       
-5 C C C C   C C C 
-6 C       C C   C 
-7 C C C C C   C C 
-Count Colored: 42
---------------------
-  0 1 2 3 4 5 6 7
-0   C C   C C C C 
-1 C C   C C     C 
-2 C   C C     C C 
-3 C C C   C C C   
-4       C C       
-5 C C C C   C C C 
+0 C C C C C C C C 
+1 C             C 
+2 C   C C C   C C 
+3 C C C   C   C   
+4       C C   C C 
+5 C C C C   C   C 
 6 C       C C   C 
 7 C C C C C   C C 
 Count Colored: 42
